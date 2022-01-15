@@ -1,6 +1,11 @@
 body{
     color: white;
-    background-color: grey;
+    background-color: #434b53;
+}
+
+main{
+    margin-left: 15%;
+    width: 70%;
 }
 /*
  * Header
@@ -40,5 +45,10 @@ body{
 .active {
     color: #fff;
     border-bottom-color: #fff;
-  }
+}
+
+h5{
+    padding-bottom: 0.75em;
+    border-bottom: 1px solid gray;
+}
   
