@@ -60,6 +60,7 @@ main {
     width: 80rem;
     font-family: "Raleway", sans-serif, monospace;
     margin: auto;
+    letter-spacing: 0.15rem;
 }
 
 @media screen and (max-width: 700px) and (min-width: 0) {
@@ -94,11 +95,17 @@ h4{
     margin-bottom: 0.5rem;
 }
 
+
 #portfolio .project{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5rem;
+    padding: 0.5rem;
+}
+
+#portfolio .project:hover{
+    background-color: rgb(223, 223, 223);
 }
 
 #portfolio .project:nth-child(even){
@@ -122,6 +129,10 @@ h4{
 
 #portfolio .project article p{
     font-size: 1rem;
+}
+
+section p{
+    margin-bottom: 2rem;
 }
 
 .project_skills{
