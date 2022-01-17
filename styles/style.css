@@ -266,9 +266,32 @@ section p{
     margin: auto;
 }
 
-#contact_informations li{
-    padding: 2rem;
+
+li[class*="logo_"]{
+    background: url("../assets/logos/github.svg") no-repeat;
+    background-size: 3rem;
+    background-position: 0 40%;
+    padding: 2rem 2rem 2rem 5rem;
 }
+
+li[class*="logo_linkedin"]{
+    background-image: url("../assets/logos/linkedin.png");
+}
+
+li[class*="logo_mail"]{
+    background-image: url("../assets/logos/mail.png");
+}
+
+li[class*="logo_home"]{
+    background-image: url("../assets/logos/home.png");
+}
+
+li[class*="logo_cv"]{
+    background-image: url("../assets/logos/document.png");
+}
+
+
+
 
 footer{
     margin-top: 4rem;
