@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
-
+    const discordWH ="https://discord.com/api/webhooks/933052117315379230/uWWOa4VcuYum0RXo_E21GgwA8ljpjSGfbp21CXhw3FKquvnjG6nwxnCLo84aHj4HzSbM";
     document.getElementById("send_mail").addEventListener("click",function(e){
-        /*var name = document.getElementById("name");
+        var name = document.getElementById("name");
         var email = document.getElementById("email");
         var subject = document.getElementById("subject");
         var message = document.getElementById("message");
@@ -14,11 +14,11 @@ document.addEventListener("DOMContentLoaded",function(){
             alert("Merci de saisir une adresse mail valide.");
             return;
         }
-        sendEmail(name.value,email.value,subject.value,message.value);
+        sendWebHook(name.value,email.value,subject.value,message.value);
         name.value='';
         email.value='';
         subject.value='';
-        message.value='';*/
+        message.value='';
     });
 
 
@@ -33,7 +33,15 @@ document.addEventListener("DOMContentLoaded",function(){
         return false;
     }
 
-    function sendEmail(name, email, subject, message){
-
+    function sendWebHook(name, email, subject, message){
+        fetch(discordWH, {
+            method: "POST",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+            username:name,
+            body: JSON.stringify({content: 'Nom :'+name+'\nMail :'+email+'\nSujet :'+subject+'\n\n'+message,}),
+        }).catch(console.error);
     }
 });
