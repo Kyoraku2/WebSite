@@ -4,14 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/style.css">
+        <script src="./js/script.js"></script>
         <title>Tayeb Hakkar</title>
     </head>
     <body>
         <main>
             <header>
-                <button id="translate">EN</button>
+                <a id="translate" href="./index_en.html">➔ EN</a>
+                <img src="assets/tayeb_hakkar.jpg" alt="Tayeb Hakkar">
                 <div id="banner">
-                    <img src="assets/tayeb_hakkar.jpg">
                     <aside>
                         <h1>Bonjour et bienvenu !</h1>
                         <p>Je m'appelle Tayeb HAKKAR, j'ai 20 ans et je suis étudiant dans le domaine de l'Informatique.</p>
@@ -91,36 +92,62 @@
             </section>
             <section id="skills">
                 <h2>Compétences et logiciels</h2>
-                <div>
+                <article>
                     <h5>Outils</h5>
-                    IntelliJ - Visual Studio Code - Git - GitHub - GitLab - Eclipse - Ubuntu - WAMP
-                </div>
-                <div>
-                    <h5>Langages</h5>
-                    HTML - CSS - JS - PHP - NodeJS - MySQL - Java - Python - C - C++ - Ruby - Scheme - UML - bash/dash - GoogleTest - JUnit - Mockito
-                </div>
+                    <div>
+                        <img src="./assets/logos/vsc.svg">
+                        <img src="./assets/logos/intellij.svg">
+                        <img src="./assets/logos/github.svg">
+                        <img src="./assets/logos/gitlab.svg">
+                        <img src="./assets/logos/eclipse.svg">
+                        <img src="./assets/logos/ubuntu.svg">
+                        <img src="./assets/logos/wamp.svg">
+                    </div>
+                </article>
+                <article>
+                <h5>Langages</h5>
+                    <div>
+                        <img src="./assets/logos/html.svg">
+                        <img src="./assets/logos/css.svg">
+                        <img src="./assets/logos/js.svg">
+                        <img src="./assets/logos/php.svg">
+                        <img src="./assets/logos/nodejs.svg">
+                        <img src="./assets/logos/mysql.svg">
+                        <img src="./assets/logos/java.svg">
+                        <img src="./assets/logos/python.svg">
+                        <img src="./assets/logos/c.svg">
+                        <img src="./assets/logos/cpp.svg">
+                        <img src="./assets/logos/ruby.svg">
+                        <img src="./assets/logos/scheme.svg">
+                        <img src="./assets/logos/uml.svg">
+                        <img src="./assets/logos/bash.svg">
+                        <img src="./assets/logos/unit_test.svg">
+                    </div>
+                </article>
             </section>
             <section id="contact">
                 <h2>Contactez-moi</h2>
                 <div id="fields_infos">
-                    <div id="form">
+                    <form class="contact_form" action="contact.php" method="post">
                         <input type="text" id="name" name="name" placeholder="Nom" required>
                         <input type="email" id="email" name="email" placeholder="Adresse mail" required>
                         <input type="text" id="subject" name="subject" placeholder="Sujet" required>
                         <textarea rows="4" id="message" name="message" placeholder="Message" required></textarea>
-                    </div>
+                        <button id="send_mail" type="submit">Envoyer</button>
+                    </form>
                     <div id="infos">
                         <ul id="contact_informations">
-                            <li class="logo_home"><a href="" alt="TODO" target="_blank">Devecey, France</a></li>
-                            <li class="logo_mail"><a href="" alt="TODO" target="_blank">tayeb.hakkar2@gmail.com</a></li>
-                            <li class="logo_linkedin"><a href="" alt="TODO" target="_blank">LinkedIn</a></li>
-                            <li class="logo_cv"><a href="" alt="TODO" target="_blank">Télécharger mon CV</a></li>
+                            <li class="logo_home"><a href="https://www.google.de/maps/place/25870+Devecey/@47.2730571,5.9477119,10.25z/data=!4m5!3m4!1s0x47929d07354d26ab:0x44428604a76c822a!8m2!3d47.326056!4d6.014967" alt="Location" target="_blank">Devecey, France</a></li>
+                            <li class="logo_mail"><a href="mailto:tayeb.hakkar2@gmail.com" alt="Personnal mail" target="_blank">tayeb.hakkar2@gmail.com</a></li>
+                            <li class="logo_github"><a href="https://github.com/Kyoraku2" alt="GitHub account" target="_blank">GitHub</a></li>
+                            <li class="logo_linkedin"><a href="https://www.linkedin.com/in/tayebhakkar/" alt="LinkedIn account" target="_blank">LinkedIn</a></li>
+                            <li class="logo_cv"><a download="tayeb_hakkar_fr" href="./data/tayeb_hakkar_fr.pdf" alt="CV" target="_blank">Télécharger mon CV</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <footer><span>© Tayeb HAKKAR</span> | <span>Dernière mise à jour le 16/01/2022</span></footer>
+            <footer><span>© Tayeb HAKKAR</span> | <span>Dernière mise à jour le 18/01/2022</span></footer>
         </main>
     </body>
 </html>
