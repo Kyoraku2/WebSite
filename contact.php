@@ -9,7 +9,10 @@ if(isset($_POST)){
     $head = "From: ".$email;
     $text = "Mail reçu de la part de : ".$name.".\n\n".$message;
     
-    echo mail($mailTo,$subject,$text,$head);
-    //header("Location: ".$_SERVER['HTTP_REFERER']);
+    if(mail($mailTo,$subject,$text,$head)){
+        print("salut1");
+    }else{
+        print("salut1");
+    };
 }
 ?>
