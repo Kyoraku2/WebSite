@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded",function(){
     const discordWH ="https://discord.com/api/webhooks/933052117315379230/uWWOa4VcuYum0RXo_E21GgwA8ljpjSGfbp21CXhw3FKquvnjG6nwxnCLo84aHj4HzSbM";
+    let skills;
     fetch("./data/skills.json")
     .then(response => {
        return response.json();
     })
-    .then(jsondata => console.log(jsondata));
+    .then(jsondata => skills = jsondata);
 
     document.getElementById("send_mail").addEventListener("click",function(e){
         var name = document.getElementById("name");
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded",function(){
         if(e.target.tagName != "IMG"){
             return;
         }
-        console.log(e.target.alt)
+        alert(skills[e.target.alt])
     });
 
     function isEmpty(value){
