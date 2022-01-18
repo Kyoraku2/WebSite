@@ -32,7 +32,11 @@ document.addEventListener("DOMContentLoaded",function(){
         if(e.target.tagName != "IMG"){
             return;
         }
-        alert(skills[e.target.alt])
+        //alert(skills[e.target.alt]);
+        var desc = "bonsoir je suis vsc.";
+        var infos = document.createElement("aside");
+        infos.innerHTML = desc;
+        document.getElementById("skills").insertBefore(infos,document.getElementById("skills").children[1]);
     });
 
     function isEmpty(value){
