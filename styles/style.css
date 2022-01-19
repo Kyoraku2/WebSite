@@ -56,6 +56,10 @@ a, a:link, a:visited, a:hover, a:active{
 */
 @import url(https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic);
 
+.hidden{
+    display: none;
+}
+
 body{
     background-color: white;
     color: #27323d;
@@ -93,11 +97,17 @@ main {
     html {
         font-size: 11px;
     }
+    #more_about_skills img {
+        width: 35%!important;
+    }
 }
   
 @media screen and (max-width: 1000px) and (min-width: 0) {
     html {
         font-size: 9px;
+    }
+    #more_about_skills img {
+        width: 35%!important;
     }
 }
 
@@ -121,9 +131,14 @@ main {
         width: 50%!important;
     }
 
+    #more_about_skills img {
+        width: 35%!important;
+    }
+
     #works .project, #fields_infos, header{
         flex-direction: column !important;
     }
+
     #fields_infos #infos{
         margin-top: 1rem;
         margin: auto;
@@ -143,6 +158,7 @@ main {
     padding: 0.75em 1.25em 0.75em 1.25em;
     top: 0;
     right: 0; 
+    z-index: 1000;
     background-color: white;
 }
 
@@ -249,12 +265,53 @@ h5{
     margin: auto;
 }
 
-#skills img{
+#skills div img{
     width: 6rem;
     height: 6rem;
     margin: 0 0 1rem 2rem;
     cursor: pointer;
 }
+
+#more_about_skills {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1001;
+    width: 50vw;
+    height: max-content;
+    background-color: white;
+    border: 0.25rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+#more_about_skills h2{
+    margin-top: 4rem;
+}
+
+#more_about_skills p{
+    margin: 4rem 2rem;
+}
+
+#more_about_skills img {
+    width: 25%;
+}
+
+#more_about_skills button{
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    right: 1rem;
+    top: 0.5rem;
+    border: none;
+    padding: 0.75rem 1.25rem 0.5rem 1.25rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+
 
 
 #works .project{
@@ -375,7 +432,7 @@ li[class*="logo_"]{
     background: url("../assets/logos/github.svg") no-repeat;
     background-size: 3rem;
     background-position: 0 40%;
-    padding: 2rem 2rem 2rem 5rem;
+    padding: 2rem 0 2rem 5rem;
 }
 
 li[class*="logo_linkedin"]{
