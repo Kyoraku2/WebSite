@@ -55,10 +55,7 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     function isMail(value){
-        if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)){
-            return true;
-        }
-        return false;
+        return (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value));
     }
 
     function sendWebHook(name, email, subject, message){

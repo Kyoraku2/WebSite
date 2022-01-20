@@ -2,111 +2,111 @@
     "vsc":{
         "name":"Visual Studio Code",
         "description_fr": "VSC, c'est mon outil de tous les jours.",
-        "description_en": "C'est VSC"
+        "description_en": "VSC is my everyday tool."
     },
     "intellij":{
         "name":"IntelliJ",
         "description_fr": "Utilisé pour un projet Java universitaire. Un projet centré sur le développement logiciel, les différents types de tests (Maven) et le CI / CD.",
-        "description_en": "C'est VSC"
+        "description_en": "Used for a university Java project. A project focused on software development, different types of tests (using Maven) and CI / CD."
     },
     "github":{
         "name":"GitHub",
         "description_fr": "GitHub est mon outil principal pour tout ce qui concerne la gestion de projets (personnels ou universitaires) ou le travail collaboratif.",
-        "description_en": "C'est VSC"
+        "description_en": "GitHub is my main tool for everything related to project management (personal or academic) or collaborative works."
     },
     "gitlab":{
         "name":"GitLab",
         "description_fr": "Pour moi, il s'agit de l'alternative à GitHub. Je l'utilise occasionnellement avec les mêmes objectifs que GitHub.",
-        "description_en": "C'est VSC"
+        "description_en": "For me, this is the alternative to GitHub. I use it occasionally with the same goals as GitHub."
     },
     "eclipse":{
         "name":"Eclipse IDE",
         "description_fr": "J'ai utilisé Eclipse surtout pour mes projets Java (par exemple le jeu Ludo).",
-        "description_en": "C'est VSC"
+        "description_en": "I used Eclipse for my Java projects (eg Ludo game)."
     },
     "ubuntu":{
         "name":"Ubuntu",
         "description_fr": "Depuis le début de mon cursus, je travaille sur Windows et Ubuntu (machine virtuelle et dual boot).",
-        "description_en": "C'est VSC"
+        "description_en": "Since the beginning of my studies, I've been working on Windows and Ubuntu (virtual machine and dual boot)."
     },
     "wamp":{
         "name":"WAMP",
         "description_fr": "J'ai utilisé WampServer pour différent projets de web, notamment Bookshop pour le PHP.",
-        "description_en": "C'est VSC"
+        "description_en": "I used WampServer for different web projects, especially Bookshop for PHP."
     },
     "html":{
         "name":"HTML",
         "description_fr": "Cela fait longtemps que j'utilise le HTML, mais j'essaye encore d'améliorer la structuration des fichiers que j'écris.",
-        "description_en": "C'est VSC"
+        "description_en": "I've been using HTML for a long time, but I'm still trying to improve the way I structure the files I write."
     },
     "css":{
         "name":"CSS",
         "description_fr": "De même que pour HTML, j'utilise CSS depuis un certain temps. Mais j'essaye toujours de m'améliorer étant donné le vaste champ de possibilités.",
-        "description_en": "C'est VSC"
+        "description_en": "Similar to HTML, I've been using CSS for quite some time. But I always try to improve myself given the vast field of possibilities."
     },
     "js":{
         "name":"JavaScript",
         "description_fr": "Globalement, j'utilise JavaScript dans l'ensemble de mes projets de web (client ou serveur). J'aime beaucoup ce langage et tout ce qu'il propose.",
-        "description_en": "C'est VSC"
+        "description_en": "I use JavaScript in all of my web projects (client or server). I really like this language and everything it offers."
     },
     "php":{
         "name":"PHP",
         "description_fr": "C'est le premier langage de backend que j'ai eu l'occasion d'utiliser, notamment pour le projet Bookshop.",
-        "description_en": "C'est VSC"
+        "description_en": "It's the first backend language I had the opportunity to use, especially for the Bookshop project."
     },
     "nodejs":{
         "name":"NodeJS",
         "description_fr": "Cela ne fait que quelques mois que j'utilise NodeJS et j'aime beaucoup. Notamment pour développer des socket serveur.",
-        "description_en": "C'est VSC"
+        "description_en": "I've only been using NodeJS for a few months (eg Yokai, Battleship, etc) and I really love it."
     },
     "mysql":{
         "name":"MySQL",
         "description_fr": "J'ai appris à construire et normaliser une base de donnée en début de mon cursus. J'ai donc pu utiliser MySQL dans différents projets de web.",
-        "description_en": "C'est VSC"
+        "description_en": "I learned to build and normalize a database at the start of my studies. So I am able to use MySQL in different projects."
     },
     "java":{
         "name":"Java",
         "description_fr": "Java c'est mon premier langage de programmation. Essentiellement utilisé pour de la Programmation Orientée Objet (POO), je dirais que, au même titre que JavaScript, c'est un des langages que je préfère.",
-        "description_en": "C'est VSC"
+        "description_en": "Java is my first programming language. Essentially used for Object Oriented Programming (OOP), I would say that, like JavaScript, it is one of my favorite languages."
     },
     "python":{
         "name":"Python",
         "description_fr": "J'ai eu l'occasion d'utiliser python dans des domaines totalement différents les uns des autres. Par exemple pour du backend web, de la logique ou encore de l'IA.",
-        "description_en": "C'est VSC"
+        "description_en": "I had the opportunity to use python in different domains from each other. For example for web backend, logic or AI."
     },
     "c":{
         "name":"C",
         "description_fr": "J'ai surtout utilisé le C pour ce qui concerne les structures de données (listes chaînées, BST, pointeurs, ...), la complexité algorithmique, la théorie des graphes, la programmation système et la programmation réseau.",
-        "description_en": "C'est VSC"
+        "description_en": "I mainly used C for data structures (linked lists, BST, pointers, ...), algorithmic complexity, graph theory, system programming and network programming."
     },
     "cpp":{
         "name":"C++",
         "description_fr": "Après avoir découvert le C, j'ai commencé à apprendre le C++ pour le cours de théorie des langages (pour manipuler des automates).",
-        "description_en": "C'est VSC"
+        "description_en": "After discovering C, I started to learn C++ for the language theory course (to manipulate automatons)."
     },
     "ruby":{
         "name":"Ruby",
         "description_fr": "J'ai découvert Ruby assez récemment et j'ai beaucoup apprécié (avec une introduction à JRuby).",
-        "description_en": "C'est VSC"
+        "description_en": "I discovered Ruby quite recently and really enjoyed it (with an introduction to JRuby)."
     },
     "scheme":{
         "name":"Scheme",
-        "description_fr": "De même que pour Ruby, j'ai découvert Scheme et le concept de programmation fonctionnelle il y a peu. Bien que difficile à la première approche, j'ai apprécié.",
-        "description_en": "C'est VSC"
+        "description_fr": "Comme pour Ruby, j'ai découvert Scheme et le concept de programmation fonctionnelle il y a peu. Bien que difficile à la première approche, j'ai apprécié.",
+        "description_en": "As for Ruby, I discovered Scheme and the concept of functional programming recently. Although difficult at first approach, I enjoyed it."
     },
     "uml":{
         "name":"UML",
-        "description_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'ai utilisé UML pour créer des diagrammes de différentes natures pour communiquer et colaborer plus facilement.",
-        "description_en": "C'est VSC"
+        "description_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'ai créé des diagrammes UML de différentes natures pour communiquer et colaborer plus facilement.",
+        "description_en": "For the analysis and modeling of information systems structures, I created UML diagrams of different kinds to communicate and collaborate more easily."
     },
     "shell":{
         "name":"Bash/Dash",
         "description_fr": "Au sein de systèmes unix, j'utilise des scripts bash (ou dash) à des fins divers.",
-        "description_en": "C'est VSC"
+        "description_en": "Within unix systems I use bash (or dash) scripts for various purposes."
     },
     "unit_test":{
-        "name":"Tests Logiciels",
-        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... J'ai eu l'occasion de toucher un peu aux méthodes agiles.",
-        "description_en": "C'est VSC"
+        "name":"Tests",
+        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... I had the opportunity to study and practice agile methods (SCRUM).",
+        "description_en": "In almost all the projects I carried out during the year 2021/2022, I wrote unit tests, black box tests, mock (and spys), integration tests, visitors, etc. "
     }
 }
