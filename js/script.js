@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded",function(){
     const discordWH ="https://discord.com/api/webhooks/933052117315379230/uWWOa4VcuYum0RXo_E21GgwA8ljpjSGfbp21CXhw3FKquvnjG6nwxnCLo84aHj4HzSbM";
+    let english = window.location.href.includes("index_en");
     let skills;
     fetch("./data/skills.json")
     .then(response => {
@@ -40,7 +41,7 @@ document.addEventListener("DOMContentLoaded",function(){
         aside.children[2].src ='./assets/logos/'+e.target.alt+'.svg';
         aside.children[2].alt = e.target.alt;
         aside.children[2].title = e.target.title;
-        aside.children[3].innerHTML = skills[e.target.alt].description_fr;
+        aside.children[3].innerHTML = (english)?skills[e.target.alt].description_en:skills[e.target.alt].description_fr;
         aside.className="";
         document.getElementById("mask").style.display="block";
     });
