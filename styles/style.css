@@ -116,6 +116,13 @@ main {
     }
 }
 
+@media screen and (max-height: 400px) and (min-height: 0){
+    header {
+        height: max-content!important;
+    }
+}
+
+
 @media screen and (max-width: 700px) and (min-width: 0) {
     html {
         font-size: 13px;
