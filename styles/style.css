@@ -120,6 +120,9 @@ main {
     header {
         height: max-content!important;
     }
+}
+
+@media screen and (max-height: 400px) and (min-height: 0) and (max-width: 700px) and (min-width: 0){
     #more_about_skills img{
         width: 10%!important;
     }
