@@ -120,6 +120,13 @@ main {
     header {
         height: max-content!important;
     }
+    #more_about_skills img{
+        width: 10%!important;
+    }
+    #more_about_skills {
+        height: 95%!important;
+        width: 95%!important;
+    }
 }
 
 
@@ -141,10 +148,6 @@ main {
 
     header img {
         width: 50%!important;
-    }
-
-    #more_about_skills img {
-        width: 35%!important;
     }
 
     #works .project, #fields_infos, header{
@@ -305,11 +308,12 @@ h5{
 }
 
 #more_about_skills h2{
-    margin-top: 4rem;
+    margin-top: 3rem;
 }
 
 #more_about_skills p{
     margin: 4rem 2rem;
+    line-height: 1.5rem;
 }
 
 #more_about_skills img {
