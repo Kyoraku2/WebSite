@@ -1,5 +1,112 @@
 {
-   "vsc":{
-       "description": "C'est VSC"
+    "vsc":{
+        "name":"Visual Studio Code",
+        "description_fr": "VSC c'est un peu mon outil de tous les jours, que j'utilise un peu pour tout.",
+        "description_en": "C'est VSC"
+    },
+    "intellij":{
+        "name":"IntelliJ",
+        "description_fr": "Utilisé pour un projet Java universitaire. Un projet centré sur le développement logiciel, les différents types de tests et le CI / CD (Maven).",
+        "description_en": "C'est VSC"
+    },
+    "github":{
+        "name":"GitHub",
+        "description_fr": "GitHub est mon outil principal pour tout ce qui concerne la gestion de projets ou le travail collaboratif (personnels ou universitaires).",
+        "description_en": "C'est VSC"
+    },
+    "gitlab":{
+        "name":"GitLab",
+        "description_fr": "Pour moi, il s'agit de l'alternative à GitHub. Je l'utilise occasionnellement avec les mêmes objectifs que GitHub.",
+        "description_en": "C'est VSC"
+    },
+    "eclipse":{
+        "name":"Eclipse IDE",
+        "description_fr": "Les fois où j'ai utilisé Eclipse, c'était essentiellement pour mes projets Java (par exemple le jeu Ludo).",
+        "description_en": "C'est VSC"
+    },
+    "ubuntu":{
+        "name":"Ubuntu",
+        "description_fr": "Depuis le début de mon cursus scolaire, je travaille sur Windows et Ubuntu (machine virtuelle et dual boot).",
+        "description_en": "C'est VSC"
+    },
+    "wamp":{
+        "name":"WAMP",
+        "description_fr": "Pour différent projets de web, notamment Bookshop pour le PHP, j'ai utilisé WampServer.",
+        "description_en": "C'est VSC"
+    },
+    "html":{
+        "name":"HTML",
+        "description_fr": "Cela fait plutôt longtemps que j'utilise le HTML, mais j'essaye encore d'améliorer la structuration des fichiers que j'écris.",
+        "description_en": "C'est VSC"
+    },
+    "css":{
+        "name":"CSS",
+        "description_fr": "De même que pour HTML, j'utilise CSS depuis un certain temps. Cependant j'essaye toujours de m'améliorer étant donné le vaste champ de possibilités.",
+        "description_en": "C'est VSC"
+    },
+    "js":{
+        "name":"JavaScript",
+        "description_fr": "Globalement, j'utilise JavaScript dans l'ensemble de mes projets de web (client ou serveur). J'aim beaucoup ce langage et tout ce qu'il a à proposer.",
+        "description_en": "C'est VSC"
+    },
+    "php":{
+        "name":"PHP",
+        "description_fr": "C'est le premier langage de backend que j'ai eu l'occasion d'utiliser. Je l'ai notamment utilisé pour le projet Bookshop.",
+        "description_en": "C'est VSC"
+    },
+    "nodejs":{
+        "name":"NodeJS",
+        "description_fr": "Cela ne fait que quelques mois que j'utilise NodeJS et j'aime beaucoup. Notamment pour développer des socket serveur.",
+        "description_en": "C'est VSC"
+    },
+    "mysql":{
+        "name":"MySQL",
+        "description_fr": "J'ai appris à construire et normaliser une base de donnée en début de mon cursus. J'ai donc pu utiliser MySQL dans différents projets de web.",
+        "description_en": "C'est VSC"
+    },
+    "java":{
+        "name":"Java",
+        "description_fr": "Java c'est un peu mon premier langage de programmation. Essentiellement utilisé pour de la Programmation Orientée Objet, je dirais que, au même titre que JavaScript, c'est un des langages que je préfère.",
+        "description_en": "C'est VSC"
+    },
+    "python":{
+        "name":"Python",
+        "description_fr": "J'ai eu l'occasion d'utiliser python dans des domains totalement différents les uns des autres. Par exemple pour du backend web, de la logique ou encore de l'IA.",
+        "description_en": "C'est VSC"
+    },
+    "c":{
+        "name":"C",
+        "description_fr": "J'ai surtout utilisé le C pour ce qui concerne les structures de données (listes chaînées, BST, pointeurs, ...), la complexité algorithmique, la théorie des graphes, la programmation système et la programmation réseau.",
+        "description_en": "C'est VSC"
+    },
+    "cpp":{
+        "name":"C++",
+        "description_fr": "Après avoir découvert le C, j'ai commencé à apprendre le C++ pour le cours de théorie des langages (pour manipuler des automates).",
+        "description_en": "C'est VSC"
+    },
+    "ruby":{
+        "name":"Ruby",
+        "description_fr": "J'ai découvert Ruby assez récemment et j'ai beaucoup apprécié (avec une introduction à JRuby).",
+        "description_en": "C'est VSC"
+    },
+    "scheme":{
+        "name":"Scheme",
+        "description_fr": "De même que pour Ruby, j'ai découvert Scheme et le concept de programmation fonctionnelle il y a peu. Bien que pas facile à la première approche, j'ai plutôt apprécié.",
+        "description_en": "C'est VSC"
+    },
+    "uml":{
+        "name":"UML",
+        "description_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'ai utilisé UML pour créer des diagrammes de différents natures pour communiquer et colaborer plus facielement.",
+        "description_en": "C'est VSC"
+    },
+    "bash":{
+        "name":"Bash/Dash",
+        "description_fr": "Au sein de systèmes unix, j'utilise des scripts bash (ou dash) à des fins divers.",
+        "description_en": "C'est VSC"
+    },
+    "unit_test":{
+        "name":"Tests Logiciels",
+        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... J'ai aussi eu l'occasion de toucher un peu aux méthodes agiles.",
+        "description_en": "C'est VSC"
     }
 }

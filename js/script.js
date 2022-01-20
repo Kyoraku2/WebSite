@@ -32,11 +32,22 @@ document.addEventListener("DOMContentLoaded",function(){
         if(e.target.tagName != "IMG"){
             return;
         }
-        //alert(skills[e.target.alt]);
-        var desc = "bonsoir je suis vsc.";
-        var infos = document.createElement("aside");
-        infos.innerHTML = desc;
-        document.getElementById("skills").insertBefore(infos,document.getElementById("skills").children[1]);
+        if(skills[e.target.alt] === undefined){
+            return;
+        }
+        var aside = document.getElementById("more_about_skills");
+        aside.children[1].innerHTML = skills[e.target.alt].name;
+        aside.children[2].src ='./assets/logos/'+e.target.alt+'.svg';
+        aside.children[2].alt = e.target.alt;
+        aside.children[2].title = e.target.title;
+        aside.children[3].innerHTML = skills[e.target.alt].description_fr;
+        aside.className="";
+        document.getElementById("mask").style.display="block";
+    });
+
+    document.querySelector('[class="close"]').addEventListener("click",function(e){
+        e.target.parentNode.className = "hidden";
+        document.getElementById("mask").style.display="none";
     });
 
     function isEmpty(value){
