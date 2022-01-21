@@ -202,7 +202,7 @@ header::after{
     height: 100%;
     top: 0;
     z-index: -1;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url("../assets/test9bis.jpg") no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.7)), url("../assets/header_bg.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     filter: blur(1px);

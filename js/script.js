@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded",function(){
-    const discordWH ="https://discord.com/api/webhooks/933052117315379230/uWWOa4VcuYum0RXo_E21GgwA8ljpjSGfbp21CXhw3FKquvnjG6nwxnCLo84aHj4HzSbM";
+    const discordWH ="https://discordapp.com/api/webhooks/934060234341752922/dRec63gWv7kwbO5Db0MB8V4o4N8YIPAIeOETwuFScKVwOqYAMTfHa3y3b0igzZa0LOby";
     let english = window.location.href.includes("index_en");
     let skills;
-    fetch("./data/skills.json")
+/*    fetch("./data/skills.json")
     .then(response => {
        return response.json();
     })
     .then(jsondata => skills = jsondata);
-
+*/
     document.getElementById("send_mail").addEventListener("click",function(e){
         var name = document.getElementById("name");
         var email = document.getElementById("email");
@@ -23,10 +23,7 @@ document.addEventListener("DOMContentLoaded",function(){
             return;
         }
         sendWebHook(name.value,email.value,subject.value,message.value);
-        name.value='';
-        email.value='';
-        subject.value='';
-        message.value='';
+        document.getElementsByClassName("contact_form")[0].reset();
     });
 
     document.getElementById("skills").addEventListener('click',function(e){
@@ -67,7 +64,7 @@ document.addEventListener("DOMContentLoaded",function(){
                 "Content-Type": "application/json",
             },
             username:name,
-            body: JSON.stringify({content: 'Nom :'+name+'\nMail :'+email+'\nSujet :'+subject+'\n\n'+message,}),
+            body: JSON.stringify({content: 'Nom : '+name+'\nMail : '+email+'\nSujet : '+subject+'\n\n'+message,}),
         }).catch(console.error);
     }
 });
