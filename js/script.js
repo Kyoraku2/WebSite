@@ -23,7 +23,10 @@ document.addEventListener("DOMContentLoaded",function(){
             return;
         }
         sendWebHook(name.value,email.value,subject.value,message.value);
-        document.getElementById("contact_form").reset();
+        name.value='';
+        email.value='';
+        subject.value='';
+        message.value='';
     });
 
     document.getElementById("skills").addEventListener('click',function(e){
