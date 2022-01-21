@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded",function(){
     const discordWH ="https://discordapp.com/api/webhooks/934060234341752922/dRec63gWv7kwbO5Db0MB8V4o4N8YIPAIeOETwuFScKVwOqYAMTfHa3y3b0igzZa0LOby";
     let english = window.location.href.includes("index_en");
     let skills;
-/*    fetch("./data/skills.json")
+    fetch("./data/skills.json")
     .then(response => {
        return response.json();
     })
     .then(jsondata => skills = jsondata);
-*/
+
     document.getElementById("send_mail").addEventListener("click",function(e){
         var name = document.getElementById("name");
         var email = document.getElementById("email");
