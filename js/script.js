@@ -78,9 +78,8 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     function fetchAllWorksData(){
-        for(const [key, value] of Object.entries(works)){
-            fetchWorkData(value);
-        }
+        console.log(works)
+        //fetchWorkData(value);
     }
 
     function fetchWorkData(data){
