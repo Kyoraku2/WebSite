@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded",function(){
         aside.children[3].innerHTML = (english)?skills[e.target.alt].description_en:skills[e.target.alt].description_fr;
         aside.className="";
         document.getElementById("mask").style.display="block";
+        console.log(works);
     });
 
     document.querySelector('[class="close"]').addEventListener("click",function(e){
@@ -78,10 +79,10 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     function fetchAllWorksData(works){
-        console.log(works);
-        for(const [key, value] of Object.entries(works)){
+        //console.log(works);
+        /*for(const [key, value] of Object.entries(works)){
             fetchWorkData(value);
-        }
+        }*/
     }
 
     function fetchWorkData(data){
