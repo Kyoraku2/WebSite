@@ -13,7 +13,10 @@ document.addEventListener("DOMContentLoaded",function(){
     .then(response => {
        return response.json();
     })
-    .then(jsondata => works = jsondata);
+    .then(jsondata => {
+        works = jsondata
+        fetchAllWorksData(works);
+    });
 
     fetchAllWorksData(works);
 
@@ -79,10 +82,9 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     function fetchAllWorksData(works){
-        //console.log(works);
-        /*for(const [key, value] of Object.entries(works)){
+        for(const [key, value] of Object.entries(works)){
             fetchWorkData(value);
-        }*/
+        }
     }
 
     function fetchWorkData(data){
