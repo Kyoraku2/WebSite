@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded",function(){
         var work = document.createElement("a");
         work.href = data['href'];
         work.className="project";
+        work.target = "_blank";
         work.title = (english)?data['title_en']:data['title_fr'];
         var work_image = document.createElement("img");
         work_image.src = "assets/works/"+data['image'];
@@ -104,6 +105,7 @@ document.addEventListener("DOMContentLoaded",function(){
         var work_desc = document.createElement("p");
         work_desc.innerHTML = (english)?data['description_en']:data['description_fr'];
         var work_skills = document.createElement("p");
+        work_skills.className = "project_skills";
         for(var i=0 ; i<data['skills'].length ; ++i){
             var skill = document.createElement("span");
             skill.innerHTML = data['skills'][i];
