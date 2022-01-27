@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",function(){
     })
     .then(jsondata => works = jsondata);
 
-    fetchAllWorksData();
+    fetchAllWorksData(works);
 
     document.getElementById("send_mail").addEventListener("click",function(e){
         var name = document.getElementById("name");
@@ -77,9 +77,11 @@ document.addEventListener("DOMContentLoaded",function(){
         }).catch(console.error);
     }
 
-    function fetchAllWorksData(){
-        console.log(works)
-        //fetchWorkData(value);
+    function fetchAllWorksData(works){
+        console.log(works);
+        for(const [key, value] of Object.entries(works)){
+            fetchWorkData(value);
+        }
     }
 
     function fetchWorkData(data){
