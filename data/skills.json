@@ -106,7 +106,7 @@
     },
     "unit_test":{
         "name":"Tests",
-        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... I had the opportunity to study and practice agile methods (SCRUM).",
-        "description_en": "In almost all the projects I carried out during the year 2021/2022, I wrote unit tests, black box tests, mock (and spys), integration tests, visitors, etc. "
+        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... J'ai eu l'opportunité d'étudier et de pratiquer les méthodes agiles (SCRUM).",
+        "description_en": "In almost all the projects I carried out during the year 2021/2022, I wrote unit tests, black box tests, mock (and spys), integration tests, visitors, etc. I had the opportunity to study and practice agile methods (SCRUM)."
     }
 }

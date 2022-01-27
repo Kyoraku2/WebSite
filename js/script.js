@@ -2,11 +2,20 @@ document.addEventListener("DOMContentLoaded",function(){
     const discordWH ="https://discordapp.com/api/webhooks/934060234341752922/dRec63gWv7kwbO5Db0MB8V4o4N8YIPAIeOETwuFScKVwOqYAMTfHa3y3b0igzZa0LOby";
     let english = window.location.href.includes("index_en");
     let skills;
+    let works;
     fetch("./data/skills.json")
     .then(response => {
        return response.json();
     })
     .then(jsondata => skills = jsondata);
+
+    fetch("./data/projects.json")
+    .then(response => {
+       return response.json();
+    })
+    .then(jsondata => works = jsondata);
+
+    fetchAllWorksData();
 
     document.getElementById("send_mail").addEventListener("click",function(e){
         var name = document.getElementById("name");
@@ -66,5 +75,40 @@ document.addEventListener("DOMContentLoaded",function(){
             username:name,
             body: JSON.stringify({content: 'Nom : '+name+'\nMail : '+email+'\nSujet : '+subject+'\n\n'+message,}),
         }).catch(console.error);
+    }
+
+    function fetchAllWorksData(){
+        for(const work of works){
+            fetchWorkData(work);
+        }
+    }
+
+    function fetchWorkData(data){
+        var work = document.createElement("a");
+        work.href = data['href'];
+        work.title = (english)?data['title_en']:data['title_fr'];
+        var work_image = document.createElement("img");
+        work_image.src = "assets/works/"+data['image'];
+        work_image.alt = (english)?data['title_en']:data['title_fr'];
+        var work_content = document.createElement("article");
+        var work_title = document.createElement("h3");
+        work_title.innerHTML = (english)?data['title_en']:data['title_fr'];
+        var work_subtitle = document.createElement("h4");
+        work_subtitle.innerHTML= (english)?data['subtitle_en']:data['subtitle_fr'];
+        var work_desc = document.createElement("p");
+        work_desc.innerHTML = (english)?data['descrition_en']:data['descrition_fr'];
+        var work_skills = document.createElement("p");
+        for(var i=0 ; i<data['skills'].length ; ++i){
+            var skill = document.createElement("span");
+            skill.innerHTML = data['skills'][i];
+            work_skills.appendChild(skill);
+        }
+        work_content.appendChild(work_title);
+        work_content.appendChild(work_subtitle);
+        work_content.appendChild(work_desc);
+        work_content.appendChild(work_skills);
+        work.appendChild(work_image);
+        work.appendChild(work_content);
+        document.getElementById("works").appendChild(work);
     }
 });
