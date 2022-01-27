@@ -82,8 +82,9 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     function fetchAllWorksData(works){
-        for(const [key, value] of Object.entries(works)){
-            fetchWorkData(value);
+        console.log(Object.values(works));
+        for(const work of Object.values(works)){
+            fetchWorkData(work);
         }
     }
 
@@ -100,7 +101,7 @@ document.addEventListener("DOMContentLoaded",function(){
         var work_subtitle = document.createElement("h4");
         work_subtitle.innerHTML= (english)?data['subtitle_en']:data['subtitle_fr'];
         var work_desc = document.createElement("p");
-        work_desc.innerHTML = (english)?data['descrition_en']:data['descrition_fr'];
+        work_desc.innerHTML = (english)?data['description_en']:data['description_fr'];
         var work_skills = document.createElement("p");
         for(var i=0 ; i<data['skills'].length ; ++i){
             var skill = document.createElement("span");
