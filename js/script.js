@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded",function(){
     function fetchWorkData(data){
         var work = document.createElement("a");
         work.href = data['href'];
-        work.class="project";
+        work.className="project";
         work.title = (english)?data['title_en']:data['title_fr'];
         var work_image = document.createElement("img");
         work_image.src = "assets/works/"+data['image'];
