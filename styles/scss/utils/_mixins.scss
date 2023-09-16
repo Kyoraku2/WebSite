@@ -1,0 +1,12 @@
+@mixin highlightOnHover {
+    &:hover{
+        transition: color 0.25s;
+        color: $highlight;
+    }
+}
+
+@mixin setLinkColor($color) {
+    a, a:link, a:visited, a:focus, a:hover, a:active{
+        color: $color;
+    }
+}

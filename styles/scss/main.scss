@@ -1,0 +1,22 @@
+@import "./base/reset";
+
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/keyframes";
+
+@import "./base/typo";
+@import "./components/button";
+@import "./components/detailsPopup";
+
+@import "./layout/navbar";
+@import "./layout/footer";
+
+@import "./page/home";
+@import "./page/contact";
+@import "./page/projects";
+@import "./page/skills";
+@import "./page/experiences";
+
+@import "./base/body";
+
+@import "./components/mouse.scss";

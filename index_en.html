@@ -1,104 +1,150 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <meta name="author" content="Tayeb HAKKAR">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="icon" type="image/svg" href="./assets/favicon.svg" />
+        <meta name="description" content="Welcome to Tayeb HAKKAR's website, Master 2 ISL - Computer Science - CMI student in Besançon!">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="icon" type="image/svg" href="./assets/images/logos/favicon.svg">
+        <script src="https://kit.fontawesome.com/48c408ab1e.js" crossorigin="anonymous"></script>
         <script src="./js/script.js"></script>
         <title>Tayeb Hakkar</title>
     </head>
     <body>
-        <div id="mask"></div>
+        <div class="overlay none"></div>
+        <header>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+            <script src="./js/mouse.js"></script>
+            <div class="navbarToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <a href="#">
+                        <img src="./assets/images/logos/logo.svg" title="Tayeb" alt="Logo">
+                        <span>Tayeb</span>
+                    </a>
+                    <span>Student Developer</span>
+                </div>
+                <ul class="navbar__links">
+                    <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user-astronaut"></i><span>About</span></a></li>
+                    <li><a href="#works"><i class="fa-solid fa-layer-group"></i><span>Projects</span></a></li>
+                    <li><a href="#experiences"><i class="fa-solid fa-screwdriver-wrench"></i><span>Experiences</span></a></li>
+                    <li><a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i><span>Skills</span></a></li>
+                    <li><a href="#contact"><i class="fa-regular fa-address-book"></i><span>Contact</span></a></li>
+                </ul>
+                <ul class="navbar__socials">
+                    <li><a href="https://github.com/Kyoraku2" target="_blank" title="Github profile"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com/in/tayebhakkar" target="_blank" title="Linkedin profile"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="index.html" title="Version française">FR</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside class="detailsPopup none"></aside>
         <main>
-            <aside id="more_about_skills" class="hidden">
-                <button class="close">X</button>
-                <h2></h2>
-                <img src="./assets/logos/js.svg" title="JavaScript" alt="js">
-                <p></p>
-            </aside>
-            <header>
-                <a id="translate" href="./index.html">➔ FR</a>
-                <img src="assets/tayeb_hakkar.jpg" alt="Tayeb Hakkar">
-                <div id="banner">
-                    <aside>
-                        <h1>Hello and welcome !</h1>
-                        <p>My name is Tayeb HAKKAR, I'm a 20 years old <strong>computer science</strong> student.</p>
-                    </aside>
-                </div>
-            </header>
-            <section id="about">
-                <h2>About me</h2>
-                <h5>Who am I ?</h5>
-                <p>&#128587; Curious and passionate about IT since my adolescence, I am sensitive to the world of hardware and development. During my studies, I have learned and Im still learning a lot of interesting things. Besides that, I developed some self-taught skills, mainly around the web domain which interests me a lot.</p>
-                <p>&#128218; After obtaining my scientific baccalaureate with honors, I decided to study in Computer Science. So I chose the <a href="https://reseau-figure.fr/a-propos-du-cmi/">CMI (Master's Degree in Engineering program)</a> at the University of Franche-Comté. I am currently in my 3rd year of this program.</p>
-                <h5>My hobbies</h5>
-                <p>&#128663; About what I like, holder of B and A2 driving licences, I often go out to discover new things and landscapes (often on a motorcycle).</p>
-                <p>&#127918; I like to play all kinds of video games. If you also loved contemplating the landscapes of the world of The Witcher, I would be happy to talk about it with you.</p>
-                <p>&#127845; I have always been interested in Japanese culture. Currently I am learning Japanese and planning a semester abroad at the University of Tsukuba.</p>
-                <p>&#127756; Quite recently, I started to develop an interest in the stars, and more broadly space, the sky and everything in it. Exploring and observing the sky fascinates me.</p>
-            </section>
-            <section id="works">
-                <h2>My projects</h2>
-            </section>
-            <section id="skills">
-                <h2>Skills and software</h2>
-                <article>
-                    <h5>🛠️ Tools</h5>
-                    <div>
-                        <img src="./assets/logos/vsc.svg" title="Visual Studio Code" alt="vsc">
-                        <img src="./assets/logos/intellij.svg" title="IntelliJ" alt="intellij">
-                        <img src="./assets/logos/github.svg" title="GitHub" alt="github">
-                        <img src="./assets/logos/gitlab.svg" title="GitLab" alt="gitlab">
-                        <img src="./assets/logos/eclipse.svg" title="Eclipse IDE" alt="eclipse">
-                        <img src="./assets/logos/ubuntu.svg" title="Ubuntu" alt="ubuntu">
-                        <img src="./assets/logos/wamp.svg" title="WAMP" alt="wamp">
+            <div class="content">
+                <section class="intro">
+                    <div class="text-zone hometitle">
+                        <div class="shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                        <div class="hometitle">
+                            <h1>Hello and welcome,</h1>
+                            <p>My name is Tayeb HAKKAR, I am a 22 years old student in Computer Science.</p>
+                        </div>
                     </div>
-                </article>
-                <article>
-                <h5>🛠️ Languages</h5>
-                    <div>
-                        <img src="./assets/logos/html.svg" title="HTML" alt="html">
-                        <img src="./assets/logos/css.svg" title="CSS" alt="css">
-                        <img src="./assets/logos/js.svg" title="JavaScript" alt="js">
-                        <img src="./assets/logos/php.svg" title="PHP" alt="php">
-                        <img src="./assets/logos/nodejs.svg" title="NodeJS" alt="nodejs">
-                        <img src="./assets/logos/mysql.svg" title="mySQL" alt="mysql">
-                        <img src="./assets/logos/java.svg" title="Java" alt="java">
-                        <img src="./assets/logos/python.svg" title="Python" alt="python">
-                        <img src="./assets/logos/c.svg" title="C" alt="c">
-                        <img src="./assets/logos/cpp.svg" title="C++" alt="cpp">
-                        <img src="./assets/logos/ruby.svg" title="Ruby" alt="ruby">
-                        <img src="./assets/logos/scheme.svg" title="Scheme" alt="scheme">
-                        <img src="./assets/logos/uml.svg" title="UML" alt="uml">
-                        <img src="./assets/logos/shell.svg" title="bash/dash" alt="shell">
-                        <img src="./assets/logos/unit_test.svg" title="Tests" alt="unit_test">
-                    </div>
-                </article>
-            </section>
-            <section id="contact">
-                <h2>Contact me</h2>
-                <div id="fields_infos">
-                    <form class="contact_form">
-                        <input type="text" id="name" name="name" placeholder="Name" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        <textarea rows="4" id="message" name="message" placeholder="Message" required></textarea>
-                        <button id="send_mail" type="submit">Send</button>
-                    </form>
-                    <div id="infos">
-                        <ul id="contact_informations">
-                            <li class="logo_home"><a href="https://www.google.de/maps/place/25870+Devecey/@47.2730571,5.9477119,10.25z/data=!4m5!3m4!1s0x47929d07354d26ab:0x44428604a76c822a!8m2!3d47.326056!4d6.014967" title="Location" target="_blank">Devecey, France</a></li>
-                            <li class="logo_mail"><a href="mailto:tayeb.hakkar2@gmail.com" title="Personnal mail" target="_blank">tayeb.hakkar2</a></li>
-                            <li class="logo_github"><a href="https://github.com/Kyoraku2" title="GitHub account" target="_blank">GitHub</a></li>
-                            <li class="logo_linkedin"><a href="https://fr.linkedin.com/in/tayebhakkar" title="LinkedIn account" target="_blank">LinkedIn</a></li>
-                            <li class="logo_cv"><a download="tayeb_hakkar_fr" href="./data/tayeb_hakkar_eng.pdf" title="CV" target="_blank">Download my resume</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+                </section>
 
-            <footer><span>© Tayeb HAKKAR</span> | <span>Last updated on 01/20/2022</span></footer>
+                <section id="about" class="about diagonal diagonal--blackUp diagonal--reversed">
+                    <h2>Who am I ?</h2>
+                    <p>🙋 Curious and passionate about IT since my adolescence, I am sensitive to the world of hardware and development. As part of my studies, I was able to learn and am still learning many interesting things. Besides that, I developed certain self-taught skills, mainly around the fields of the web, application and software development, areas that particularly interest me.</p>
+                    <p>📚 After obtaining my scientific baccalaureate with honors, I made the decision to focus on computer science. This is where I chose the CMI Informatique curriculum (<a class="external_link" href="https://reseau-figure.fr/" target="blank">Master's course in Engineering</a>) at the University of Franche-Comté in Besançon. I am currently in the 5th and last year of Master ISL (<a class="external_link" href="http://formation.univ-fcomte.fr/master/informatique-ingenierie-systemes-et-logiciels" target="blank">Systems and Software Engineering</a>) and member of this curriculum.</p>
+                    
+                    <h2>My hobbies</h2>
+                    <p>🚗 Regarding what I like, being a B and A2 license holder, I often go out for rides to discover new landscapes (often on 2 wheels).</p>
+                    <p>🎮 I like playing all kinds of video games. I am sure that it improves my competitiveness, my perseverance and my mental strength. If you loved contemplating the landscapes of the world of Skyrim, The Witcher or you tore your hair out playing Dark Souls too, I would be happy to talk about it with you.</p>
+                    <p>🍥 I have always been interested in Japanese culture. For my first semester of Master 1, I had the chance to spend a full semester abroad, at the University of Tsukuba in Japan. This experience taught me a lot, whether socially or intellectually. This allowed me to open up to a new culture as well as new methods and a way of thinking, different from what I had seen before.</p>
+                    <p>🌌 Fairly recently, I began to develop a certain interest in space, stars and universe. Observation of the sky and the conquest of space fascinates me</p>
+                </section>
+
+                <section id="works" class="works">
+                    <h2>Mes projets</h2>
+                    <p>🛠️ Here is a gallery showing the main projects I have worked on in recent years. I created some of them alone, others with teammates and friends, whether at university or as part of personal projects.</p>
+                    <ul class="works__items">
+                    </ul>
+                </section>
+                <section id="experiences" class="experiences">
+                    <h2>Mes expériences professionnelles</h2>
+                    <p>
+                        💻 Since the start of my university studies, I have had the chance to carry out various internships and other professional activities. These allowed me to put into practice what I learned during my studies and my self-study, but also to develop a lot of new skills. Such as the integration into a team of developers, new technologies and methods, the notion of responsibility towards the company...
+                    </p>
+                        <ul class="experiences__timeline"></ul>
+                </section>
+
+                <section id="skills" class="skills diagonal">
+                    <h2>Skills & Tools</h2>
+                    <aside class="skills__details">
+                        <img src="assets/images/logos/js.svg" title="JavaScript" alt="JavaScript logo">
+                        <article>
+                            <h4>JavaScript</h4>
+                            <p>Generally, I use JavaScript in all of my web projects (client or server). I really like this language and everything it offers.</p>
+                        </article>
+                    </aside>
+                    <h3>🛠️ Tools</h3>
+                    <ul class="skills__tools"></ul>
+                    <h3>🛠️ Languages, Frameworks and Concepts</h3>
+                    <ul class="skills__langs"></ul>
+                </section>
+
+                <section id="contact" class="contact">
+                    <h2>Contact me</h2>
+                    <div class="contact__container">
+                        <div class="contact__container__form">
+                            <p>📞 If you are interested in my profile, or if you have any comment on this site, or if you wish to contact me for any other reason, do not hesitate to use the form below.</p>
+                            <form onsubmit="return false;" id="contact_form">
+                                <input type="text" id="name" name="name" placeholder="Name*" required>
+                                <input type="email" id="email" name="email" placeholder="Email*" required>
+                                <input type="text" id="subject" name="subject" placeholder="Subject*" required>
+                                <textarea rows="3" id="message" name="message" placeholder="Message" required></textarea>
+                                <button class="button button--fromBottomRight" id="send_mail" type="submit">Send message</button>
+                            </form>
+                            <ul class="contact__container__form__infos">
+                                <li>
+                                    <a href="https://www.google.de/maps/place/25870+Devecey/@47.2730571,5.9477119,10.25z/data=!4m5!3m4!1s0x47929d07354d26ab:0x44428604a76c822a!8m2!3d47.326056!4d6.014967" title="Location" target="_blank">
+                                        <span>Besançon, France</span>
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:tayeb.hakkar2@gmail.com" title="Personnal mail" target="_blank">
+                                        <span>My email</span>
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a download="tayeb_hakkar_en" href="./data/tayeb_hakkar_en.pdf" title="CV" target="_blank">
+                                        <span>My CV</span>
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <footer>
+                    <span>© Tayeb HAKKAR</span>
+                    <span>|</span>
+                    <span>Dernière mise à jour le 16/09/2023</span>
+                </footer>
+            </div>
         </main>
     </body>
 </html>

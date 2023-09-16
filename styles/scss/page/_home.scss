@@ -1,0 +1,44 @@
+main{
+  background: $mainBack;;
+  width: calc(100% - $navWidth);
+  position: absolute;
+  left: $navWidth;
+}
+
+@media (max-width: 1150px) and (min-width: 0) {
+  main{
+    background: $mainBack;
+    width: 100%;
+    left: 0;
+  }
+}
+
+*{
+    scroll-behavior: smooth ;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5.2rem;
+    position: relative;
+    min-height: 100vh;
+    padding: 0 5rem;
+    cursor:crosshair;
+    user-select: none;
+    h1{
+      font-size: 6rem;
+    }
+    p{
+        color: $subtitleColor;
+        font-style: italic;
+        width: 80vw;
+        text-align: center;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+    a{
+      pointer-events: all;
+    }
+}

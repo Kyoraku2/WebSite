@@ -1,112 +1,194 @@
+
 {
-    "vsc":{
-        "name":"Visual Studio Code",
-        "description_fr": "VSC, c'est mon outil de tous les jours.",
-        "description_en": "VSC is my everyday tool."
-    },
-    "intellij":{
-        "name":"IntelliJ",
-        "description_fr": "Utilisé pour un projet Java universitaire. Un projet centré sur le développement logiciel, les différents types de tests (Maven) et le CI / CD.",
-        "description_en": "Used for a university Java project. A project focused on software development, different types of tests (using Maven) and CI / CD."
-    },
-    "github":{
-        "name":"GitHub",
-        "description_fr": "GitHub est mon outil principal pour tout ce qui concerne la gestion de projets (personnels ou universitaires) ou le travail collaboratif.",
-        "description_en": "GitHub is my main tool for everything related to project management (personal or academic) or collaborative works."
-    },
-    "gitlab":{
-        "name":"GitLab",
-        "description_fr": "Pour moi, il s'agit de l'alternative à GitHub. Je l'utilise occasionnellement avec les mêmes objectifs que GitHub.",
-        "description_en": "For me, this is the alternative to GitHub. I use it occasionally with the same goals as GitHub."
-    },
-    "eclipse":{
-        "name":"Eclipse IDE",
-        "description_fr": "J'ai utilisé Eclipse surtout pour mes projets Java (par exemple le jeu Ludo).",
-        "description_en": "I used Eclipse for my Java projects (eg Ludo game)."
-    },
-    "ubuntu":{
-        "name":"Ubuntu",
-        "description_fr": "Depuis le début de mon cursus, je travaille sur Windows et Ubuntu (machine virtuelle et dual boot).",
-        "description_en": "Since the beginning of my studies, I've been working on Windows and Ubuntu (virtual machine and dual boot)."
-    },
-    "wamp":{
-        "name":"WAMP",
-        "description_fr": "J'ai utilisé WampServer pour différent projets de web, notamment Bookshop pour le PHP.",
-        "description_en": "I used WampServer for different web projects, especially Bookshop for PHP."
-    },
-    "html":{
-        "name":"HTML",
-        "description_fr": "Cela fait longtemps que j'utilise le HTML, mais j'essaye encore d'améliorer la structuration des fichiers que j'écris.",
-        "description_en": "I've been using HTML for a long time, but I'm still trying to improve the way I structure the files I write."
-    },
-    "css":{
-        "name":"CSS",
-        "description_fr": "De même que pour HTML, j'utilise CSS depuis un certain temps. Mais j'essaye toujours de m'améliorer étant donné le vaste champ de possibilités.",
-        "description_en": "Similar to HTML, I've been using CSS for quite some time. But I always try to improve myself given the vast field of possibilities."
-    },
-    "js":{
-        "name":"JavaScript",
-        "description_fr": "Globalement, j'utilise JavaScript dans l'ensemble de mes projets de web (client ou serveur). J'aime beaucoup ce langage et tout ce qu'il propose.",
-        "description_en": "I use JavaScript in all of my web projects (client or server). I really like this language and everything it offers."
-    },
-    "php":{
-        "name":"PHP",
-        "description_fr": "C'est le premier langage de backend que j'ai eu l'occasion d'utiliser, notamment pour le projet Bookshop.",
-        "description_en": "It's the first backend language I had the opportunity to use, especially for the Bookshop project."
-    },
-    "nodejs":{
-        "name":"NodeJS",
-        "description_fr": "Cela ne fait que quelques mois que j'utilise NodeJS et j'aime beaucoup. Notamment pour développer des socket serveur.",
-        "description_en": "I've only been using NodeJS for a few months (eg Yokai, Battleship, etc) and I really love it."
-    },
-    "mysql":{
-        "name":"MySQL",
-        "description_fr": "J'ai appris à construire et normaliser une base de donnée en début de mon cursus. J'ai donc pu utiliser MySQL dans différents projets de web.",
-        "description_en": "I learned to build and normalize a database at the start of my studies. So I am able to use MySQL in different projects."
-    },
-    "java":{
-        "name":"Java",
-        "description_fr": "Java c'est mon premier langage de programmation. Essentiellement utilisé pour de la Programmation Orientée Objet (POO), je dirais que, au même titre que JavaScript, c'est un des langages que je préfère.",
-        "description_en": "Java is my first programming language. Essentially used for Object Oriented Programming (OOP), I would say that, like JavaScript, it is one of my favorite languages."
-    },
-    "python":{
-        "name":"Python",
-        "description_fr": "J'ai eu l'occasion d'utiliser python dans des domaines totalement différents les uns des autres. Par exemple pour du backend web, de la logique ou encore de l'IA.",
-        "description_en": "I had the opportunity to use python in different domains from each other. For example for web backend, logic or AI."
-    },
-    "c":{
-        "name":"C",
-        "description_fr": "J'ai surtout utilisé le C pour ce qui concerne les structures de données (listes chaînées, BST, pointeurs, ...), la complexité algorithmique, la théorie des graphes, la programmation système et la programmation réseau.",
-        "description_en": "I mainly used C for data structures (linked lists, BST, pointers, ...), algorithmic complexity, graph theory, system programming and network programming."
-    },
-    "cpp":{
-        "name":"C++",
-        "description_fr": "Après avoir découvert le C, j'ai commencé à apprendre le C++ pour le cours de théorie des langages (pour manipuler des automates).",
-        "description_en": "After discovering C, I started to learn C++ for the language theory course (to manipulate automatons)."
-    },
-    "ruby":{
-        "name":"Ruby",
-        "description_fr": "J'ai découvert Ruby assez récemment et j'ai beaucoup apprécié (avec une introduction à JRuby).",
-        "description_en": "I discovered Ruby quite recently and really enjoyed it (with an introduction to JRuby)."
-    },
-    "scheme":{
-        "name":"Scheme",
-        "description_fr": "Comme pour Ruby, j'ai découvert Scheme et le concept de programmation fonctionnelle il y a peu. Bien que difficile à la première approche, j'ai apprécié.",
-        "description_en": "As for Ruby, I discovered Scheme and the concept of functional programming recently. Although difficult at first approach, I enjoyed it."
-    },
-    "uml":{
-        "name":"UML",
-        "description_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'ai créé des diagrammes UML de différentes natures pour communiquer et colaborer plus facilement.",
-        "description_en": "For the analysis and modeling of information systems structures, I created UML diagrams of different kinds to communicate and collaborate more easily."
-    },
-    "shell":{
-        "name":"Bash/Dash",
-        "description_fr": "Au sein de systèmes unix, j'utilise des scripts bash (ou dash) à des fins divers.",
-        "description_en": "Within unix systems I use bash (or dash) scripts for various purposes."
-    },
-    "unit_test":{
-        "name":"Tests",
-        "description_fr": "Dans la quasi-intégralité des projets que j'ai réalisé durant l'année 2021/2022, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, visiteurs, ... J'ai eu l'opportunité d'étudier et de pratiquer les méthodes agiles (SCRUM).",
-        "description_en": "In almost all the projects I carried out during the year 2021/2022, I wrote unit tests, black box tests, mock (and spys), integration tests, visitors, etc. I had the opportunity to study and practice agile methods (SCRUM)."
-    }
+    "tools": [
+        {
+            "id": "vsc",
+            "name": "Visual Studio Code",
+            "desc_fr": "VSC, c'est mon outil de tous les jours.",
+            "desc_en": "VSC is my everyday tool."
+        },
+        {
+            "id": "vs",
+            "name": "Visual Studio",
+            "desc_en": "Visual Studio is a tool I've used for C and C++ projects on Windows (although the majority have been done on Ubuntu).",
+            "desc_fr": "Visual Studio est un outil que j'ai utilisé dans le cadre de projet C et C++ sur Windows (bien que la majorité ait été réalisée sur Ubuntu)."
+        },
+        {
+            "id": "intellij",
+            "name": "IntelliJ IDEA",
+            "desc_en": "IntelliJ IDEA is the IDE I use for most of my Java projects. I used it for some university projects and internships around the concept of software development (tests, CI / CD, Maven).",
+            "desc_fr": "IntelliJ IDEA c'est l'IDE que j'utilise pour la majorité de mes projets Java. Je l'ai utilisé dans le cadre de certains projets universitaires et stages autour du concept de développement logiciel (testes, CI/CD, Maven)."
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "desc_en": "GitHub is my main tool for everything related to project management (personal or academic) or collaborative works.",
+            "desc_fr": "GitHub est mon outil principal pour tout ce qui concerne la gestion de projets (personnels ou universitaires) ou le travail collaboratif."
+        },
+        {
+            "id": "gitlab",
+            "name": "GitLab",
+            "desc_en": "As an alternative to GitHub, I use it occasionally with the same goals as GitHub.",
+            "desc_fr": "Il s'agit d'une l'alternative à GitHub. Je l'utilise occasionnellement pour les mêmes objectifs que GitHub."
+        },
+        {
+            "id": "eclipse",
+            "name": "Eclipse IDE",
+            "desc_en": "I used Eclipse for my Java projects (eg: Ludo game).",
+            "desc_fr": "J'ai utilisé Eclipse surtout pour mes projets Java (par exemple le jeu Ludo)."
+        },
+        {
+            "id": "android_studio",
+            "name": "Android Studio",
+            "desc_en": "Mainly used for Flutter mobile app development.",
+            "desc_fr": "Principalement utilisé pour le développement d'applications mobiles Flutter."
+        },
+        {
+            "id": "datagrip",
+            "name": "DataGrip",
+            "desc_en": "DataGrip is a database management software that I discovered quite recently and that I greatly appreciate.",
+            "desc_fr": "DataGrip est un logiciel de gestion de bases de données que j'ai découvert assez récemment et que j'apprécie fortement."
+        },
+        {
+            "id": "webstorm",
+            "name": "WebStorm",
+            "desc_en": "I recently started to use WebStorm as an IDE for some of my web projects and I this it's actually very great.",
+            "desc_fr": "J'ai commencé récemment à utiliser WebStorm comme IDE pour quelques uns de mes projets web et pour l'instant je le trouve plu^tot intéressant"
+        },
+        {
+            "id": "ubuntu",
+            "name": "Ubuntu",
+            "desc_en": "Since the beginning of my studies, I've been working on Windows and Ubuntu (virtual machine and dual boot).",
+            "desc_fr": "Depuis le début de mon cursus, je travaille sur Windows et Ubuntu (machine virtuelle et dual boot)."
+        }
+        
+    ],
+    "langs": [
+        {
+            "id": "html",
+            "name": "HTML5",
+            "desc_en": "I've been using HTML for a long time and I'm still trying to improve the structuring of the files I write. I'm also trying to improve my code for SEO or accessibility purposes.",
+            "desc_fr": "Cela fait longtemps que j'utilise le HTML et j'essaye encore d'améliorer la structuration des fichiers que j'écris. J'essaye aussi d'améliorer mon code pour le SEO ou à des fins d'accessibilité."
+        },
+        {
+            "id": "css",
+            "name": "CSS3",
+            "desc_en": "De même que pour HTML, j'utilise CSS depuis un certain temps.",
+            "desc_fr": "Similar to HTML, I've been using CSS for quite some time."
+        },
+        {
+            "id": "sass",
+            "name": "SASS",
+            "desc_en": "For almost a year, I've been using SCSS rather than classic CSS. Especially to improve my code base easily (using the BEM methodology).",
+            "desc_fr": "Depuis près d'un an, j'utilise SCSS plutôt que CSS classique. Notamment pour améliorer ma base de code facilement (en utilisant la méthodologie BEM)."
+        },
+        {
+            "id": "js",
+            "name": "JavaScript",
+            "desc_en": "Generally, I use JavaScript in all of my web projects (client or server). I really like this language and everything it offers.",
+            "desc_fr": "Généralement, j'utilise JavaScript dans l'ensemble de mes projets de web (client ou serveur). J'aime beaucoup ce langage et tout ce qu'il propose."
+        },
+        {
+            "id": "php",
+            "name": "PHP",
+            "desc_en": "This is the first web language for the backend that I had the opportunity to use, especially for the Bookshop project.",
+            "desc_fr": "C'est le premier langage web pour le backend que j'ai eu l'occasion d'utiliser, notamment pour le projet Bookshop."
+        },
+        {
+            "id": "nodejs",
+            "name": "NodeJS",
+            "desc_en": "I've been using NodeJS for about 2 years and I really like it. In particular to develop sockets servers, APIs...",
+            "desc_fr": "Cela à peu près 2 ans que j'utilise NodeJS et j'aime beaucoup. Notamment pour développer des serveurs sockets, des APIs..."
+        },
+        {
+            "id": "react",
+            "name": "React JS & Native",
+            "desc_en": "After discovering PWAs (Progressive Web Applications), I learned to use React, a framework that I found really useful for managing and splitting a user interface into many components. For some personnal project, I also used React Native to create Android applications (Currency converter...).",
+            "desc_fr": "Après avoir découvrant les PWA (Progressive Web Applications), j'ai appris à utiliser React, un framework que j'ai trouvé vraiment pratique pour gérer/découper une interface utilisateurs en de nombreux composants. Pour certains projets personnels, j'ai aussi utilisé React Native pour créer des application Android (Convertisseur de devises...)."
+        },
+        {
+            "id": "sql",
+            "name": "MySQL",
+            "desc_en": "I learned to build and normalize a database at the start of my studies. So I can use MySQL in different projects without much difficulty.",
+            "desc_fr": "J'ai appris à construire et normaliser une base de donnée en début de mon cursus. Je peux donc utiliser MySQL dans différents projets sans grandes difficultés."
+        },
+        {
+            "id": "postgresql",
+            "name": "PostgreSQL",
+            "desc_en": "In general, in cases where I need a database with relatively complex processing, I prefer PostgreSQL rather than MySQL.",
+            "desc_fr": "En général, dans les cas où j'ai besoin d'une base de données avec un traitement relativement complexe, j'opte pour PostgreSQL plutôt que MySQL."
+        },
+        {
+            "id": "java",
+            "name": "Java",
+            "desc_en": "Java is my first programming language. Essentially used for Object Oriented Programming (OOP), I would say that, like JavaScript, it is one of my favorite languages.",
+            "desc_fr": "Java c'est mon premier langage de programmation. Essentiellement utilisé pour de la Programmation Orientée Objet (POO), je dirais que, au même titre que JavaScript, c'est un des langages que je préfère."
+        },
+        {
+            "id": "python",
+            "name": "Python",
+            "desc_en": "I had the opportunity to use python in different domains from each other. For example for web backend, logic or AI.",
+            "desc_fr": "J'ai eu l'occasion d'utiliser python dans des domaines totalement différents les uns des autres. Par exemple pour du backend web, de la logique ou encore de l'IA."
+        },
+        {
+            "id": "c",
+            "name": "C",
+            "desc_en": "C is a language that I have used a lot as part of my course and is a language that I really like. I mainly used it for data structures (linked lists...), algorithmic complexity, graph theory, system programming and network programming.",
+            "desc_fr": "C est un langage que j'ai beaucoup utilisé dans le cadre de mon cursus et est un langage que j'aime beaucoup. Je l'ai principalement utilisé pour ce qui concerne les structures de données (listes chaînées...), la complexité algorithmique, la théorie des graphes, la programmation système et la programmation réseau."
+        },
+        {
+            "id": "flutter",
+            "name": "Flutter",
+            "desc_en": "Its the first native mobile programming language that I have used for several applications. Flutter interests me a lot given all the features made available by the community in particular.",
+            "desc_fr": "C'est le premier langage de propgrammation mobile native que j'ai utilisé pour plusieurs applications. Flutter m'intéresse beaucoup étant donné toutes les fonctionnalités mises à disposition par la communauté notamment."
+        },
+        {
+            "id": "ruby",
+            "name": "Ruby",
+            "desc_en": "Similar to Scheme, I used Ruby to learn the functional programming paradigm.",
+            "desc_fr": "De la même manière que pour le Scheme, j'ai utilisé Ruby afin d'apprendre le paradigme de la programmation fonctionnelle."
+        },
+        {
+            "id": "scheme",
+            "name": "Scheme",
+            "desc_en": "In order to learn the functional programming paradigm, I learned Scheme. Although difficult at first approach, I rather enjoyed it.",
+            "desc_fr": "Afin d'apprendre le paradigme de la programmation fonctionnelle, j'ai appris Scheme. Bien que difficile à la première approche, j'ai plutôt apprécié."
+        },
+        {
+            "id": "shell",
+            "name": "Bash/Dash",
+            "desc_en": "Within unix systems I have used and do use bash (or dash) scripts for various purposes.",
+            "desc_fr": "Au sein de systèmes unix, j'ai utilisé et j'utilise des scripts bash (ou dash) à de divers fins."
+        },
+        {
+            "id": "cypress",
+            "name": "Cypress",
+            "desc_en": "Cypress is a tool that I discovered very recently. There are still a lot of things that I don't know yet and that I can't wait to discover around this tool (same for Selenium).",
+            "desc_fr": "Cypress est un outil que j'ai découvert très récemment. Il reste encore beaucoup de chose que je ne connais pas encore et que j'ai hâte de découvrir autour de cet outil (de même pour Selenium)."
+        },
+        {
+            "id": "network",
+            "name": "Networking",
+            "desc_en": "During my apprenticeship, I accumulated a lot of knowledge around the network and network programming.",
+            "desc_fr": "Durant mon apprentissage, j'ai accumulé un bon nombre de connaissances autour du réseau et de la programmation réseau."
+        },
+        {
+            "id": "uml",
+            "name": "UML",
+            "desc_en": "For the analysis and modeling of information systems structures, I created UML diagrams of different kinds to communicate and collaborate more easily (use case, sequence...).",
+            "desc_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'utilise des diagrammes UML de différentes natures pour communiquer et colaborer plus facilement (cas d'utilisation, séquence...)."
+        },
+        {
+            "id": "tests",
+            "name": "Tests",
+            "desc_en": "In almost all the projects I have done, I have written unit tests, black box tests, mock (and spys), integration tests...",
+            "desc_fr": "Dans la quasi-intégralité des projets que j'ai réalisés, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, tests fonctionnels..."
+        },
+        {
+            "id": "ci",
+            "name": "CI/CD",
+            "desc_en": "Continuous integration is a concept that I have encountered a lot during my studies, my internships or my personal projects. I had the chance to use several technologies, methods and concepts such as SonarQube, Nexus, Jenkins, Slack, Trello, agile methods (SCRUM)...",
+            "desc_fr": "L'intégration continue est un concept que j'ai beaucoup rencontré dans le cadre de mes études, mes stages ou encore mes projets personnels. J'ai eu la chance de pouvoir utiliser plusieurs technologies, méthodes et concepts tels que SonarQube, Nexus, Jenkins, Slack, Trello, les méthodes agiles (SCRUM)..."
+        }
+    ]
 }

@@ -1,0 +1,193 @@
+{
+    "concepts": [
+        {
+            "id":"front",
+            "name_fr":"Front-end",
+            "name_en":"Front-end",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+                {
+                    "name_fr":"Stage Utinam",
+                    "name_en":"Utinam Internship",
+                    "url":"TODO"
+                }
+            ]
+        },
+        {
+            "id":"network",
+            "name_fr":"Réseau",
+            "name_en":"Networking",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+            ]
+        },
+        {
+            "id":"back",
+            "name_fr":"Back-end",
+            "name_en":"Back-end",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+                {
+                    "name_fr":"Stage Utinam",
+                    "name_en":"Utinam Internship",
+                    "url":"TODO"
+                },
+                {
+                    "name_fr":"Stage Flexio",
+                    "name_en":"Flexio Internship",
+                    "url":"TODO"
+                }
+            ]
+        },
+        {
+            "id":"bd",
+            "name_fr":"Base de données",
+            "name_en":"Database",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+                {
+                    "name_fr":"Stage Flexio",
+                    "name_en":"Flexio Internship",
+                    "url":"TODO"
+                }
+            ]
+        },
+        {
+            "id":"scripts",
+            "name_fr":"Scripts",
+            "name_en":"Scripts",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+            ]
+        },
+        {
+            "id":"poo",
+            "name_fr":"Programmation Orientée Objet",
+            "name_en":"Oriented Object Programmation",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+                {
+                    "name_fr":"Stage Utinam",
+                    "name_en":"Utinam Internship",
+                    "url":"TODO"
+                },
+                {
+                    "name_fr":"Stage Flexio",
+                    "name_en":"Flexio Internship",
+                    "url":"TODO"
+                }
+            ]
+        },
+        {
+            "id":"modelization",
+            "name_fr":"Analyse & modélisation UML",
+            "name_en":"Analysis and modeling UML",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+            ]
+        },
+        {
+            "id":"gestion",
+            "name_fr":"Gestion de projets",
+            "name_en":"Project management",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+                {
+                    "name_fr":"Stage Flexio",
+                    "name_en":"Flexio Internship",
+                    "url":"TODO"
+                }
+            ]
+        },
+        {
+            "id":"test",
+            "name_fr":"Test logiciel",
+            "name_en":"Software testing",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                {
+                    "name_fr":"Stage Flexio",
+                    "name_en":"Flexio Internship",
+                    "url":"TODO"
+                }
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+            ]
+        },
+        {
+            "id":"mobile",
+            "name_fr":"Développement mobile",
+            "name_en":"Mobile developpement",
+            "desc_fr":"TODO",
+            "desc_en":"TODO",
+            "technologies":[
+                "TODO"
+            ],
+            "tools":[
+                "TODO"
+            ],
+            "related_experiences":[
+            ]
+        }
+    ]
+}

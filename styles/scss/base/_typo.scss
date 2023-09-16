@@ -1,0 +1,36 @@
+body{
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 750;
+    color: $highlight;
+}
+
+@media screen and (max-width: 900px){
+    html {
+        font-size: 14px;
+    }
+}
+
+  
+@media screen and (max-width: 600px){
+    html {
+        font-size: 8.9px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    html {
+        font-size: 8px;
+    }
+}
