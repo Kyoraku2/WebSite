@@ -17,7 +17,7 @@
             "subtitle_en":"Adaptadion du jeu de plateau Yokai",
             "subtitle_fr":"Adaptation of the Yokai board game",
             "desc_en":"Adaptation of the Yokai board game in a local network, developed in pairs. Playable in games of 2 to 4 players, your objective will be to calm the Yokais.",
-            "desc_fr":"Adaptation du jeu de plateau Yokai en réseau local, développé en binôme. Jouable par partie de 2 à 4 joueurs votre objectif sera de calmer les Yokais.",
+            "desc_fr":"Adaptation du jeu de plateau Yokai en réseau local, développé en binôme. Jouable par partie de 2 à 4 joueurs, votre objectif sera de calmer les Yokais.",
             "skills":["HTML5","CSS","JavaScript","NodeJS","Team work"]
         },
         {
@@ -36,7 +36,7 @@
             "name":"Ludo",
             "subtitle_en":"Adaptation of the Ludo board game",
             "subtitle_fr":"Adaptadion du jeu de plateau Ludo (petits chevaux)",
-            "desc_en":"video game adaptation of the board game Ludo. For this application, the JavaSwing library and the MVC design pattern were used.",
+            "desc_en":"Video game adaptation of the board game Ludo. For this application, the JavaSwing library and the MVC design pattern were used.",
             "desc_fr":"Adaptation en jeu vidéo du jeu de plateau Ludo. Pour cette application, la librairie JavaSwing et le modèle de conception MVC ont été utilisés.",
             "skills":["Java","MVC","JavaSwing","Git","Team work"]
         },
@@ -47,7 +47,7 @@
             "subtitle_en":"Site web évènementiel",
             "subtitle_fr":"Event website",
             "desc_en":"Website created for the R&Day 2021, an event organized by CMI in computer science students whose theme was quantum computing. The event was centered on the question \"Quantum computing, the future of computing?\".",
-            "desc_fr":"Site réalisé pour la R&Day 2021, un évènement organisé par les étudiants en CMI Informatique dont la thématique était l'informatique quantique. L'évènement était centré sur la question \"L'informatique quantique, le future de l'informatique?\".",
+            "desc_fr":"Site réalisé pour la R&Day 2021, un évènement organisé par les étudiants en CMI Informatique dont la thématique était l'informatique quantique. L'évènement était centré sur la question \"L'informatique quantique, le futur de l'informatique?\".",
             "skills":["HTML5","CSS","JavaScript","Bootstrap","Git"]
         },
         {
@@ -67,7 +67,7 @@
             "subtitle_en":"A Battleship game",
             "subtitle_fr":"Jeu de bataille naval",
             "desc_en":"Local network battleship game. Initially you will have to place your boats, then two players will fight 1vs1.",
-            "desc_fr":"Jeu de bataille navale en réseau local. Ce jeu permet dans un premier de temps de placer ses bateaux, puis permet à deux joueurs de s'affronter 1vs1.",
+            "desc_fr":"Jeu de bataille navale en réseau local. Ce jeu permet dans un premier de temps de placer ses bateaux, puis permet à deux joueurs de s'affronter 1 vs 1.",
             "skills":["JavaScript","NodeJS","HTML5"]
         },
         {
@@ -77,7 +77,7 @@
             "subtitle_en":"Japan travel app (in progress)",
             "subtitle_fr":"Application de voyage pour le Japon (en cours)",
             "desc_en":"A kind of social network application for traveling in Japan. The idea is to be able to list different places to visit, rate them, leave comments, have a dictionary... Everything that could be useful for traveling in Japan within a single application.",
-            "desc_fr":"Une sorte de réseau sociale pour les voyages au Japon. L'idée est de pouvoir répertorier différents lieux à visiter, les noter, laisser des commentaires, disposer d'un dictionnaire... Tout ce qui pourrait être utile pour voyager au Japon au sein d'un seule application.",
+            "desc_fr":"Une sorte de réseau sociale pour les voyages au Japon. L'idée est de pouvoir répertorier différents lieux à visiter, les noter, laisser des commentaires, disposer d'un dictionnaire... Tout ce qui pourrait être utile pour voyager au Japon au sein d'une seule application.",
             "skills":["React","PostgreSQL","Figma","JavaScript","HTML5","SCSS"]
         },
         {
@@ -87,7 +87,7 @@
             "subtitle_en":"Octree manipulation application",
             "subtitle_fr":"Application de manipulation d'arbre octaux",
             "desc_en":"Instructive application whose objective is to allow users to manipulate octal trees, to generate, modify and save them.",
-            "desc_fr":"Application instructive dont l'objectif est de permettre aux utilisateurs de manipuler des arbres octaux, d'en générer, de les modifiers et de les sauvegarder.",
+            "desc_fr":"Application instructive dont l'objectif est de permettre aux utilisateurs de manipuler des arbres octaux, d'en générer, de les modifier et de les sauvegarder.",
             "skills":["Flutter"]
         },
         {
@@ -96,7 +96,7 @@
             "name":"Chikatetsu",
             "subtitle_en":"A modelisation of a Japanese subway system (Chikatetsu)",
             "subtitle_fr":"Modélisation d'un système de métro japonais (Chikatetsu)",
-            "desc_en":"This java application represent a subway system. Several famous design patterns are used in this project. This program is fully tested.",
+            "desc_en":"This java application represents a subway system. Several famous design patterns are used in this project. This program is fully tested.",
             "desc_fr":"Cette application Java représente un système de métro complet. Plusieurs modèles de conception célèbres sont utilisés dans ce projet. Ce programme est entièrement testé.",
             "skills":["Java","Design pattern","Maven"]
         },
@@ -106,7 +106,7 @@
             "name":"Compilation",
             "subtitle_en":"Compilation and interpretation",
             "subtitle_fr":"Compilation et interprétation",
-            "desc_en":"This project was made for the Compilation class of my Master's Degree in 2022. The aim was to build a IDE with a compiler, interpreters and debuggers for the languages MiniJava (minmal version of Java) and JajaCode (JajaCode is the result of MiniJaja compilation).",
+            "desc_en":"This project was made for the Compilation class of my Master's Degree in 2022. The aim was to build an IDE with a compiler, interpreters, and debuggers for the languages MiniJaja (minimal  version of Java) and JajaCode (JajaCode is the result of MiniJaja compilation).",
             "desc_fr":"Ce projet a été réalisé dans le cadre de l'unité d'enseignement Compilation du Master ISL de Besançon en 2022. Le but était de construire un IDE avec compilateur, interpréteurs et débogueurs pour les langages MiniJava (version minimale de Java) et JajaCode (JajaCode est le résultat de la compilation MiniJaja).",
             "skills":["Java","JavaCC","Design pattern","Maven","CI/CD","Jenkins","Nexus","SonarQube","Gitflow"]
         }

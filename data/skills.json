@@ -5,7 +5,7 @@
             "id": "vsc",
             "name": "Visual Studio Code",
             "desc_fr": "VSC, c'est mon outil de tous les jours.",
-            "desc_en": "VSC is my everyday tool."
+            "desc_en": "c."
         },
         {
             "id": "vs",
@@ -17,7 +17,7 @@
             "id": "intellij",
             "name": "IntelliJ IDEA",
             "desc_en": "IntelliJ IDEA is the IDE I use for most of my Java projects. I used it for some university projects and internships around the concept of software development (tests, CI / CD, Maven).",
-            "desc_fr": "IntelliJ IDEA c'est l'IDE que j'utilise pour la majorité de mes projets Java. Je l'ai utilisé dans le cadre de certains projets universitaires et stages autour du concept de développement logiciel (testes, CI/CD, Maven)."
+            "desc_fr": "IntelliJ IDEA c'est l'IDE que j'utilise pour la majorité de mes projets Java. Je l'ai utilisé dans le cadre de certains projets universitaires et stages autour du concept de développement logiciel (tests, CI/CD, Maven)."
         },
         {
             "id": "github",
@@ -29,7 +29,7 @@
             "id": "gitlab",
             "name": "GitLab",
             "desc_en": "As an alternative to GitHub, I use it occasionally with the same goals as GitHub.",
-            "desc_fr": "Il s'agit d'une l'alternative à GitHub. Je l'utilise occasionnellement pour les mêmes objectifs que GitHub."
+            "desc_fr": "Il s'agit d'une alternative à GitHub. Je l'utilise occasionnellement pour les mêmes objectifs que GitHub."
         },
         {
             "id": "eclipse",
@@ -53,7 +53,7 @@
             "id": "webstorm",
             "name": "WebStorm",
             "desc_en": "I recently started to use WebStorm as an IDE for some of my web projects and I this it's actually very great.",
-            "desc_fr": "J'ai commencé récemment à utiliser WebStorm comme IDE pour quelques uns de mes projets web et pour l'instant je le trouve plu^tot intéressant"
+            "desc_fr": "J'ai commencé récemment à utiliser WebStorm comme IDE pour quelques-uns de mes projets web et pour l'instant, je le trouve plutôt intéressant."
         },
         {
             "id": "ubuntu",
@@ -67,20 +67,20 @@
         {
             "id": "html",
             "name": "HTML5",
-            "desc_en": "I've been using HTML for a long time and I'm still trying to improve the structuring of the files I write. I'm also trying to improve my code for SEO or accessibility purposes.",
+            "desc_en": "I've been using HTML for a long time, and I'm still trying to improve the structuring of the files I write. I'm also trying to improve my code for SEO or accessibility purposes.",
             "desc_fr": "Cela fait longtemps que j'utilise le HTML et j'essaye encore d'améliorer la structuration des fichiers que j'écris. J'essaye aussi d'améliorer mon code pour le SEO ou à des fins d'accessibilité."
         },
         {
             "id": "css",
             "name": "CSS3",
-            "desc_en": "De même que pour HTML, j'utilise CSS depuis un certain temps.",
-            "desc_fr": "Similar to HTML, I've been using CSS for quite some time."
+            "desc_en": "Similar to HTML, I've been using CSS for quite some time.",
+            "desc_fr": "De même que pour HTML, j'utilise CSS depuis un certain temps."
         },
         {
             "id": "sass",
             "name": "SASS",
-            "desc_en": "For almost a year, I've been using SCSS rather than classic CSS. Especially to improve my code base easily (using the BEM methodology).",
-            "desc_fr": "Depuis près d'un an, j'utilise SCSS plutôt que CSS classique. Notamment pour améliorer ma base de code facilement (en utilisant la méthodologie BEM)."
+            "desc_en": "For more than a year now, I've been using SCSS rather than classic CSS. Especially to improve my code base easily (using the BEM methodology).",
+            "desc_fr": "Depuis plus d'un an maintenant, j'utilise SCSS plutôt que CSS classique. Notamment pour améliorer ma base de code facilement (en utilisant la méthodologie BEM)."
         },
         {
             "id": "js",
@@ -97,20 +97,20 @@
         {
             "id": "nodejs",
             "name": "NodeJS",
-            "desc_en": "I've been using NodeJS for about 2 years and I really like it. In particular to develop sockets servers, APIs...",
-            "desc_fr": "Cela à peu près 2 ans que j'utilise NodeJS et j'aime beaucoup. Notamment pour développer des serveurs sockets, des APIs..."
+            "desc_en": "I've been using Node.js for about 2 years and I really like it. In particular to develop sockets servers, APIs...",
+            "desc_fr": "Cela à peu près 2 ans que j'utilise Node.js et j'aime beaucoup. Notamment pour développer des serveurs sockets, des APIs..."
         },
         {
             "id": "react",
             "name": "React JS & Native",
-            "desc_en": "After discovering PWAs (Progressive Web Applications), I learned to use React, a framework that I found really useful for managing and splitting a user interface into many components. For some personnal project, I also used React Native to create Android applications (Currency converter...).",
-            "desc_fr": "Après avoir découvrant les PWA (Progressive Web Applications), j'ai appris à utiliser React, un framework que j'ai trouvé vraiment pratique pour gérer/découper une interface utilisateurs en de nombreux composants. Pour certains projets personnels, j'ai aussi utilisé React Native pour créer des application Android (Convertisseur de devises...)."
+            "desc_en": "After discovering PWAs (Progressive Web Applications), I learned to use React, a framework that I found really useful for managing and splitting a user interface into many components. For some personal projects, I also used React Native to create Android applications (Currency converter...).",
+            "desc_fr": "Après avoir découvert les PWA (Progressive Web Applications), j'ai appris à utiliser React, un framework que j'ai trouvé vraiment pratique pour gérer/découper une interface utilisateurs en de nombreux composants. Pour certains projets personnels, j'ai aussi utilisé React Native pour créer des applications Android (Convertisseur de devises...)."
         },
         {
             "id": "sql",
             "name": "MySQL",
-            "desc_en": "I learned to build and normalize a database at the start of my studies. So I can use MySQL in different projects without much difficulty.",
-            "desc_fr": "J'ai appris à construire et normaliser une base de donnée en début de mon cursus. Je peux donc utiliser MySQL dans différents projets sans grandes difficultés."
+            "desc_en": "I learned to build and normalize a database at the start of my studies. So I can use MySQL in different projects without difficulty.",
+            "desc_fr": "J'ai appris à construire et à normaliser une base de donnée en début de mon cursus. Je peux donc utiliser MySQL dans différents projets sans difficultés."
         },
         {
             "id": "postgresql",
@@ -127,7 +127,7 @@
         {
             "id": "python",
             "name": "Python",
-            "desc_en": "I had the opportunity to use python in different domains from each other. For example for web backend, logic or AI.",
+            "desc_en": "I had the opportunity to use python in different domains from each other. For example, for web backend, logic, or AI.",
             "desc_fr": "J'ai eu l'occasion d'utiliser python dans des domaines totalement différents les uns des autres. Par exemple pour du backend web, de la logique ou encore de l'IA."
         },
         {
@@ -139,8 +139,8 @@
         {
             "id": "flutter",
             "name": "Flutter",
-            "desc_en": "Its the first native mobile programming language that I have used for several applications. Flutter interests me a lot given all the features made available by the community in particular.",
-            "desc_fr": "C'est le premier langage de propgrammation mobile native que j'ai utilisé pour plusieurs applications. Flutter m'intéresse beaucoup étant donné toutes les fonctionnalités mises à disposition par la communauté notamment."
+            "desc_en": "It's the first native mobile programming language that I have used for several applications. Flutter interests me a lot given all the features made available by the community in particular.",
+            "desc_fr": "C'est le premier langage de programmation mobile native que j'ai utilisé pour plusieurs applications. Flutter m'intéresse beaucoup étant donné toutes les fonctionnalités mises à disposition par la communauté notamment."
         },
         {
             "id": "ruby",
@@ -157,8 +157,8 @@
         {
             "id": "shell",
             "name": "Bash/Dash",
-            "desc_en": "Within unix systems I have used and do use bash (or dash) scripts for various purposes.",
-            "desc_fr": "Au sein de systèmes unix, j'ai utilisé et j'utilise des scripts bash (ou dash) à de divers fins."
+            "desc_en": "Within Unix systems, I have used and do use bash (or dash) scripts for various purposes.",
+            "desc_fr": "Au sein de systèmes Unix, j'ai utilisé et j'utilise des scripts bash (ou dash) à de divers fins."
         },
         {
             "id": "cypress",
@@ -176,19 +176,19 @@
             "id": "uml",
             "name": "UML",
             "desc_en": "For the analysis and modeling of information systems structures, I created UML diagrams of different kinds to communicate and collaborate more easily (use case, sequence...).",
-            "desc_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'utilise des diagrammes UML de différentes natures pour communiquer et colaborer plus facilement (cas d'utilisation, séquence...)."
+            "desc_fr": "Pour ce qui est de l'analyse et la modélisation de structures de systèmes d'informations, j'utilise des diagrammes UML de différentes natures pour communiquer et collaborer plus facilement (cas d'utilisation, séquence...)."
         },
         {
             "id": "tests",
             "name": "Tests",
-            "desc_en": "In almost all the projects I have done, I have written unit tests, black box tests, mock (and spys), integration tests...",
-            "desc_fr": "Dans la quasi-intégralité des projets que j'ai réalisés, j'ai écrit des tests unitaires, tests boîte noire, mock (et spys), tests d'intégration, tests fonctionnels..."
+            "desc_en": "In almost all the projects I have done, I have written unit tests, black box tests, mock (and spies), integration tests...",
+            "desc_fr": "Dans la quasi-intégralité des projets que j'ai réalisé, j'ai écrit des tests unitaires, tests boîte noire, mock (et spies), tests d'intégration, tests fonctionnels..."
         },
         {
             "id": "ci",
             "name": "CI/CD",
-            "desc_en": "Continuous integration is a concept that I have encountered a lot during my studies, my internships or my personal projects. I had the chance to use several technologies, methods and concepts such as SonarQube, Nexus, Jenkins, Slack, Trello, agile methods (SCRUM)...",
-            "desc_fr": "L'intégration continue est un concept que j'ai beaucoup rencontré dans le cadre de mes études, mes stages ou encore mes projets personnels. J'ai eu la chance de pouvoir utiliser plusieurs technologies, méthodes et concepts tels que SonarQube, Nexus, Jenkins, Slack, Trello, les méthodes agiles (SCRUM)..."
+            "desc_en": "Continuous integration is a concept that I have encountered a lot during my studies, my internships or my personal projects. I had the chance to use several technologies, methods, and concepts such as Jira, Squash, SonarQube, Nexus, Jenkins, Slack, Trello, agile methods (SCRUM)...",
+            "desc_fr": "L'intégration continue est un concept que j'ai beaucoup rencontré dans le cadre de mes études, mes stages ou encore mes projets personnels. J'ai eu la chance de pouvoir utiliser plusieurs technologies, méthodes et concepts tels que Jira, Squash, SonarQube, Nexus, Jenkins, Slack, Trello, les méthodes agiles (SCRUM)..."
         }
     ]
 }
