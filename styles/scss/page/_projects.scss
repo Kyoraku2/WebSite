@@ -149,6 +149,9 @@
 }
 
 @media (max-width: 600px) and (min-width: 0) {
+    #ghibli{
+        width: 100%;
+    }
     .works{
         &__items{
             flex-direction: column;

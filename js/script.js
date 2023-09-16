@@ -150,7 +150,6 @@ document.addEventListener("DOMContentLoaded",function(){
 
     function updateProjectDetails(project){
         var projectSkills = [];
-        console.log(project)
         var skillsSpan = (english)?'Skill':'Compétence';
         for(var skill of project['skills']){
             projectSkills.push(createElement('span',{},skill));
