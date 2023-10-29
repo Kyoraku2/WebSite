@@ -139,7 +139,6 @@ document.addEventListener("DOMContentLoaded",function(){
         }
     }
     
-
     function fetchData(filename) {
         return new Promise((resolve, reject) => {
             fetch(`./data/${filename}.json`, { mode: "cors" })

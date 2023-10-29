@@ -1,0 +1,43 @@
+{
+    "short_name": "Tayeb HAKKAR",
+    "name": "Tayeb HAKKAR portfolio",
+    "icons": [
+        {
+            "src": "assets/images/logos/favicon.svg",
+            "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/images/icons/icon_512",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "assets/images/icons/icon_256",
+            "type": "image/png",
+            "sizes": "256x6256"
+        },
+        {
+            "src": "assets/images/icons/icon_128",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "assets/images/icons/icon_64",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "assets/images/icons/icon_32",
+            "type": "image/png",
+            "sizes": "32x32"
+        }
+    ],
+    "description": "Portfolio of Tayeb HAKKAR",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#181372"
+  }
+  
