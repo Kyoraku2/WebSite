@@ -1,141 +1,87 @@
-.contact{
-    @include setLinkColor(white);
+.contact {
+  @include setLinkColor(white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  &__container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    &__container{
+    column-gap: 2rem;
+    &__form {
+      margin: 1rem;
+      height: max-content;
+      p {
+        margin: 1rem 0 3rem 0;
+      }
+      form {
+        position: relative;
         display: flex;
-        column-gap: 2rem;
-        &__form{
-            margin: 1rem;
-            height: max-content;
-            p{
-                margin: 1rem 0 3rem 0;
-            }
-            form{
-                position: relative;
-                display: flex;
-                flex-direction: column;
-            }
-            input, textarea{
-                border: none;
-                font-size: 1.2rem;
-                padding: 1rem;
-                background: $gray1;
-                margin: 5px 0;
-                pointer-events: all;
-                color: white;
-            }
-            textarea{
-                resize: none;
-            }
-            button{
-                width: 14rem;
-                font-weight: 100;
-                position: absolute;
-                right: 0;
-                bottom: -4.5rem;
-                pointer-events: all;
-            }
-            &__infos{
-                margin-top: 8rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                column-gap: 3rem;
+        flex-direction: column;
+      }
+      input,
+      textarea {
+        border: none;
+        font-size: 1.2rem;
+        padding: 1rem;
+        background: $gray1;
+        margin: 5px 0;
+        pointer-events: all;
+        color: white;
+      }
+      textarea {
+        resize: none;
+      }
+      button {
+        width: 14rem;
+        font-weight: 100;
+        position: absolute;
+        right: 0;
+        bottom: -4.5rem;
+        pointer-events: all;
+      }
+      &__infos {
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 3rem;
 
-                li{
-                    font-size: 2.5rem;
-                    position: relative;
-                    pointer-events: all;
-                    span{
-                        position: absolute;
-                        font-size: 1rem;
-                        top:-35px;
-                        width: max-content;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        background: $gray1;
-                        padding: 5px 10px;
-                        border-radius: 5px;
-                        color: white;
-                        opacity: 0;
-                        transition: opacity .3s;
-                    }
-                    a{
-                        @include highlightOnHover;
-                    }
-                    &:hover{
-                        cursor: pointer;
-                        span{
-                            opacity: 1;
-                        }
-                    }
-                }
+        li {
+          font-size: 2.5rem;
+          position: relative;
+          pointer-events: all;
+          span {
+            position: absolute;
+            font-size: 1rem;
+            top: -35px;
+            width: max-content;
+            left: 50%;
+            transform: translateX(-50%);
+            background: $gray1;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s;
+          }
+          a {
+            @include highlightOnHover;
+          }
+          &:hover {
+            cursor: pointer;
+            span {
+              opacity: 1;
             }
+          }
         }
-        &__map{
-            pointer-events: all;
-            iframe{
-                right: 0;
-                height: 30rem;
-                aspect-ratio:1;
-            }
-        }
+      }
     }
-}
-/*
-@media screen and (max-width: 1150px) and (min-width: 0) {
-    .contact{
-        &__container{
-            align-items: center;
-            flex-direction: column;
-            &__map{
-                iframe{
-                    height: 30rem;
-                    aspect-ratio: 1;
-                }
-            }
-        }
+    &__map {
+      pointer-events: all;
+      iframe {
+        right: 0;
+        height: 30rem;
+        aspect-ratio: 1;
+      }
     }
+  }
 }
-
-@media screen and (max-width: 400px) and (min-width: 0) {
-    .contact{
-        &__container{
-            &__map{
-                iframe{
-                    height: 30rem;
-                    aspect-ratio: 1;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 650px) and (min-width: 400px) {
-    .contact{
-        &__container{
-            &__map{
-                iframe{
-                    height: 25rem;
-                    aspect-ratio: 1;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 700px) and (min-width: 650px) {
-    .contact{
-        &__container{
-            &__map{
-                iframe{
-                    height: 40rem;
-                    aspect-ratio: 1;
-                }
-            }
-        }
-    }
-}
-*/

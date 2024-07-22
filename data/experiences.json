@@ -1,41 +1,66 @@
 {
-    "experiences": [
-        {
-            "id":"flexio",
-            "name_fr":"Stage - Développeur logiciel fullstack",
-            "name_en":"Internship - Software fullstack developer",
-            "place":"Flexio",
-            "year":"2022",
-            "date_en":"April 2022 - July 2022",
-            "date_fr":"Avril 2022 - Juillet 2022",
-            "desc_en":"Development of microservices and graphical interfaces around continuous integration.",
-            "desc_fr":"Développement de micro-services et d'interfaces graphiques autour de l'intégration continue.",
-            "competence":["API REST","Docker Swarm","MongoDB","Microservices","Java","JavaScript"]
-        
-        },
-        {
-            "id":"utinam",
-            "name_fr":"Stage - Développeur web",
-            "name_en":"Internship - Web developer",
-            "place":"Institut UTINAM",
-            "year":"2021",
-            "date_en":"May 2021 - July 2021",
-            "date_fr":"Mai 2021 - Juillet 2021",
-            "desc_en":"Development of a web application for viewing and manipulating astronomical radio data.",
-            "desc_fr":"Développement d'une application web de visualisation et manipulation de données radios astronomiques.",
-            "competence":["Python","CSS","JavaScript","HTML"]
-        },
-        {
-            "id":"init_code",
-            "name_fr":"Animateur de stage d'initiation au codage",
-            "name_en":"Activity preparator - Introduction to IT for children",
-            "place":"La Fabrikà, Université de Franche-Comté",
-            "year":"2021",
-            "date_en":"April 2021",
-            "date_fr":"Avril 2021",
-            "desc_en":"Creation of an initiation to programming workshop for children from 6 to 13 years old.",
-            "desc_fr":"Création d'atelier d'initiation à la programmation pour des enfants de 6 à 13 ans.",
-            "competence":[]
-        }
-    ]
+  "experiences": [
+    {
+      "id": "avisto",
+      "name_fr": "Stage - Ingénieur fullstack",
+      "name_en": "Internship - Fullstack engineer",
+      "place": "Avisto - Advans Group",
+      "year": "2024",
+      "date_en": "March 2024 - August 2024",
+      "date_fr": "Mars 2024 - Août 2024",
+      "desc_en": "Development of a desktop application for test case management.",
+      "desc_fr": "Développement d'une application de bureau pour la gestion de cas de tests.",
+      "competence": [
+        "Angular",
+        "Electron",
+        "Rust",
+        "PostgreSQL",
+        "TypeScript",
+        "SASS"
+      ]
+    },
+    {
+      "id": "flexio",
+      "name_fr": "Stage - Développeur logiciel fullstack",
+      "name_en": "Internship - Software fullstack developer",
+      "place": "Flexio",
+      "year": "2022",
+      "date_en": "April 2022 - July 2022",
+      "date_fr": "Avril 2022 - Juillet 2022",
+      "desc_en": "Development of microservices and graphical interfaces around continuous integration.",
+      "desc_fr": "Développement de micro-services et d'interfaces graphiques autour de l'intégration continue.",
+      "competence": [
+        "API REST",
+        "Docker Swarm",
+        "MongoDB",
+        "Microservices",
+        "Java",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "utinam",
+      "name_fr": "Stage - Développeur web",
+      "name_en": "Internship - Web developer",
+      "place": "Institut UTINAM",
+      "year": "2021",
+      "date_en": "May 2021 - July 2021",
+      "date_fr": "Mai 2021 - Juillet 2021",
+      "desc_en": "Development of a web application for viewing and manipulating astronomical radio data.",
+      "desc_fr": "Développement d'une application web de visualisation et manipulation de données radios astronomiques.",
+      "competence": ["Python", "CSS", "JavaScript", "HTML"]
+    },
+    {
+      "id": "init_code",
+      "name_fr": "Animateur de stage d'initiation au codage",
+      "name_en": "Activity preparator - Introduction to IT for children",
+      "place": "La Fabrikà, Université de Franche-Comté",
+      "year": "2021",
+      "date_en": "April 2021",
+      "date_fr": "Avril 2021",
+      "desc_en": "Creation of an initiation to programming workshop for children from 6 to 13 years old.",
+      "desc_fr": "Création d'atelier d'initiation à la programmation pour des enfants de 6 à 13 ans.",
+      "competence": []
+    }
+  ]
 }

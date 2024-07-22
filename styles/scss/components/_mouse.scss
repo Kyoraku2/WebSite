@@ -11,21 +11,21 @@
   position: absolute;
   border-radius: 50%;
 
-  &-1{
-    background-color: darken($highlight,20%);;
+  &-1 {
+    background-color: darken($highlight, 20%);
     width: 650px;
     aspect-ratio: 1;
     margin: -325px 0 0 -325px;
   }
 
-  &-2{
-    background-color: darken($highlight,10%);
+  &-2 {
+    background-color: darken($highlight, 10%);
     width: 440px;
     aspect-ratio: 1;
     margin: -220px 0 0 -220px;
   }
 
-  &-3{
+  &-3 {
     background-color: $highlight;
     width: 270px;
     aspect-ratio: 1;
@@ -36,7 +36,7 @@
 .hometitle {
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   position: absolute;
   display: flex;
   justify-content: center;
@@ -45,34 +45,32 @@
   height: 100%;
   width: 100%;
   background: #000;
-  mix-blend-mode:hard-light;
+  mix-blend-mode: hard-light;
 }
 
 @media (min-width: 1150px) {
   .shape {
-    &-1{
+    &-1 {
       margin: -325px 0 0 -495px;
     }
-  
-    &-2{
+
+    &-2 {
       margin: -220px 0 0 -390px;
     }
-  
-    &-3{
+
+    &-3 {
       background-color: $highlight;
       margin: -135px 0 0 -305px;
     }
   }
 }
 
-
 h1 {
-  color:rgb(179, 178, 178); // Couleur du text
+  color: rgb(179, 178, 178);
   margin: 0;
   text-align: center;
-  font-size:10rem;
+  font-size: 10rem;
 }
-
 
 .cursor {
   position: fixed;
@@ -86,15 +84,3 @@ h1 {
   pointer-events: none;
   z-index: 10000;
 }
-
-/*
-::selection {
-  color: #fff;
-  background: #2128bd;
-}*/
-
-/*
-*{
-  cursor: none;
-}
-*/
