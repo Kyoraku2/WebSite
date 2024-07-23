@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   /** Declarations **/
   const discordWebhook =
-    "https://discord.com/api/webhooks/1152637157735944292/dnLeByC1BJIlAXCKHL-DAVGXYEXXEF3cJIhmGJLcYYe2sVr-xvJgyaOIe3QgKZJgSOYh";
+    "https://discord.com/api/webhooks/934060234341752922/dRec63gWv7kwbO5Db0MB8V4o4N8YIPAIeOETwuFScKVwOqYAMTfHa3y3b0igzZa0LOby";
   sendWebhook("Owner", " ", "Visit", "Someone is visiting your website.");
   const detailsPopup = document.getElementsByClassName("detailsPopup")[0];
   const navbar = document.getElementsByClassName("navbar")[0];
@@ -212,8 +212,6 @@ document.addEventListener("DOMContentLoaded", function () {
     );
     togglePopup();
   }
-
-  
 
   function displayExperiences(experience_list) {
     for (const experience of experience_list) {

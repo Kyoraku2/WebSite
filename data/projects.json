@@ -1,114 +1,124 @@
 {
-    "projects": [
-        {
-            "id":"simple_kanban",
-            "href":"private(todo)",
-            "name":"Simple Kanban",
-            "subtitle_en":"Simple Kanban",
-            "subtitle_fr":"Simple Kanban",
-            "desc_en":"A simple Kanban board React component that allows you to manage tasks, users & tags, all stored within the browser's local storage. All that through a user-friendly interface made using Tailwind CSS. Perfect for small projects and personal task management.",
-            "desc_fr":"Un composant React, un tableau Kanban simplifié qui vous permet de gérer des tâches, des utilisateurs et des tags, le tout stocké dans le stockage local du navigateur. Le tout à travers une interface conviviale réalisée avec Tailwind CSS. Parfait pour les petits projets et la gestion des tâches personnelles.",
-            "skills":["React","Tailwind", "TypeScript"]
-        },
-        {
-            "id":"ghibli",
-            "href":"private(todo)",
-            "name":"Ghibli Movies",
-            "subtitle_en":"Ghibli movie review app (in progress)",
-            "subtitle_fr":"Application de revu de films Ghibli (en cours)",
-            "desc_en":"Complete application around the API listing Studio Ghibli movies. It lists the characteristics of each movie (characters, places, etc.) and allows you to create an account, rate films, manage favorites and manage a list of films to watch.",
-            "desc_fr":"Application complète autour de l'API répertoriant les films du studio Ghibli. Elle répertorie les caractéristiques de chaque film (personnages, lieux...) et permet de créer un compte, de noter des films, de gérer des favoris et de gérer une liste de films à regarder.",
-            "skills":["React", "TypeScript","SCSS","Express.js","PostgreSQL"]
-        },
-        {
-            "id":"noro",
-            "href":"private(todo)",
-            "name":"Noro",
-            "subtitle_en":"Japan travel app (in progress)",
-            "subtitle_fr":"Application de voyage pour le Japon (en cours)",
-            "desc_en":"A kind of social network application for traveling in Japan. The idea is to be able to list different places to visit, rate them, leave comments, have a dictionary... Everything that could be useful for traveling in Japan within a single application.",
-            "desc_fr":"Une sorte de réseau sociale pour les voyages au Japon. L'idée est de pouvoir répertorier différents lieux à visiter, les noter, laisser des commentaires, disposer d'un dictionnaire... Tout ce qui pourrait être utile pour voyager au Japon au sein d'une seule application.",
-            "skills":["React","SCSS", "Spring","PostgreSQL","Figma"]
-        },
-        {
-            "id":"golfux",
-            "href":"https://github.com/Kyoraku2/GolfuX.github.io",
-            "name":"GolfuX",
-            "subtitle_en":"Jeu mobile de Mini-Golf 2D multijoueur",
-            "subtitle_fr":"Multiplayer 2D Mini-Golf mobile game",
-            "desc_en":"Project during which, in collaboration with 2 teammates, we developed a PWA (Progressive Web Application) for a graduation project. It is a real-time, turn-based MiniGolf game allowing users to play alone or with friends, in a local network or online. This project started in September 2021 and ended in March 2022.",
-            "desc_fr":"Projet durant lequel, en collaboration avec 2 camarades, nous avons développé une PWA (Progressive Web Application) pour un projet de fin de licence. Il s'agit d'un jeu de MiniGolf en tour par tour et en temps réel permettant aux utilisateurs de jouer seuls ou avec leurs amis, en réseau local ou en ligne. Ce projet a commencé en septembre 2021 et s'est terminé en mars 2022.",
-            "skills":["PWA","WebWorker","JavaScript","Box2D","NodeJS"]
-        },
-        {
-            "id":"octrux",
-            "href":"private(todo)",
-            "name":"OctruX",
-            "subtitle_en":"Octree manipulation application",
-            "subtitle_fr":"Application de manipulation d'arbre octaux",
-            "desc_en":"Instructive application whose objective is to allow users to manipulate octal trees, to generate, modify and save them.",
-            "desc_fr":"Application instructive dont l'objectif est de permettre aux utilisateurs de manipuler des arbres octaux, d'en générer, de les modifier et de les sauvegarder.",
-            "skills":["Flutter"]
-        },
-        {
-            "id":"compilation",
-            "href":"private(todo)",
-            "name":"Compilation",
-            "subtitle_en":"Compilation and interpretation",
-            "subtitle_fr":"Compilation et interprétation",
-            "desc_en":"This project was made for the Compilation class of my Master's Degree in 2022. The aim was to build an IDE with a compiler, interpreters, and debuggers for the languages MiniJaja (minimal  version of Java) and JajaCode (JajaCode is the result of MiniJaja compilation).",
-            "desc_fr":"Ce projet a été réalisé dans le cadre de l'unité d'enseignement Compilation du Master ISL de Besançon en 2022. Le but était de construire un IDE avec compilateur, interpréteurs et débogueurs pour les langages MiniJava (version minimale de Java) et JajaCode (JajaCode est le résultat de la compilation MiniJaja).",
-            "skills":["Java","JavaCC","Design pattern","CI/CD"]
-        },
-        {
-            "id":"yokai",
-            "href":"https://github.com/Kyoraku2/Yokai",
-            "name":"Yokai",
-            "subtitle_en":"Adaptadion du jeu de plateau Yokai",
-            "subtitle_fr":"Adaptation of the Yokai board game",
-            "desc_en":"Adaptation of the Yokai board game in a local network, developed in pairs. Playable in games of 2 to 4 players, your objective will be to calm the Yokais.",
-            "desc_fr":"Adaptation du jeu de plateau Yokai en réseau local, développé en binôme. Jouable par partie de 2 à 4 joueurs, votre objectif sera de calmer les Yokais.",
-            "skills":["JavaScript","NodeJS","Sockets"]
-        },
-        {
-            "id":"bookshop",
-            "href":"https://github.com/Kyoraku2/Projet-Web",
-            "name":"Bookshop",
-            "subtitle_en":"Fictitious online book selling website",
-            "subtitle_fr":"Site fictif de vente de livre en ligne",
-            "desc_en":"Website of a fictitious bookstore simulating the sale of books online  (accounts, sessions...).",
-            "desc_fr":"Site web d'une librairie fictive simulant la vente de livres en ligne (comptes, sessions...).",
-            "skills":["PHP","MySQL"]
-        },
-        {
-            "id":"battle",
-            "href":"https://github.com/Kyoraku2/bataille_navale",
-            "name":"Battleship",
-            "subtitle_en":"A Battleship game",
-            "subtitle_fr":"Jeu de bataille naval",
-            "desc_en":"Local network battleship game. Initially you will have to place your boats, then two players will fight 1vs1.",
-            "desc_fr":"Jeu de bataille navale en réseau local. Ce jeu permet dans un premier de temps de placer ses bateaux, puis permet à deux joueurs de s'affronter 1 vs 1.",
-            "skills":["JavaScript","NodeJS","Sockets"]
-        },
-        {
-            "id":"ludo",
-            "href":"https://github.com/Kyoraku2/Projet-POA",
-            "name":"Ludo",
-            "subtitle_en":"Adaptation of the Ludo board game",
-            "subtitle_fr":"Adaptadion du jeu de plateau Ludo (petits chevaux)",
-            "desc_en":"Video game adaptation of the board game Ludo. For this application, the JavaSwing library and the MVC design pattern were used.",
-            "desc_fr":"Adaptation en jeu vidéo du jeu de plateau Ludo. Pour cette application, la librairie JavaSwing et le modèle de conception MVC ont été utilisés.",
-            "skills":["Java","MVC","JavaSwing"]
-        },
-        {
-            "id":"rnday",
-            "href":"https://github.com/Kyoraku2/Kyoraku2.github.io",
-            "name":"R&Day",
-            "subtitle_en":"Site web évènementiel",
-            "subtitle_fr":"Event website",
-            "desc_en":"Website created for the R&Day 2021, an event organized by CMI in computer science students whose theme was quantum computing. The event was centered on the question \"Quantum computing, the future of computing?\".",
-            "desc_fr":"Site réalisé pour la R&Day 2021, un évènement organisé par les étudiants en CMI Informatique dont la thématique était l'informatique quantique. L'évènement était centré sur la question \"L'informatique quantique, le futur de l'informatique?\".",
-            "skills":["HTML","CSS","JavaScript","Bootstrap"]
-        }
-    ]
+  "projects": [
+    {
+      "id": "simple_kanban",
+      "href": "private(todo)",
+      "name": "Simple Kanban",
+      "subtitle_en": "Simple Kanban",
+      "subtitle_fr": "Simple Kanban",
+      "desc_en": "A simple Kanban board React component that allows you to manage tasks, users & tags, all stored within the browser's local storage. All that through a user-friendly interface made using Tailwind CSS. Perfect for small projects and personal task management.",
+      "desc_fr": "Un composant React, un tableau Kanban simplifié qui vous permet de gérer des tâches, des utilisateurs et des tags, le tout stocké dans le stockage local du navigateur. Le tout à travers une interface conviviale réalisée avec Tailwind CSS. Parfait pour les petits projets et la gestion des tâches personnelles.",
+      "skills": ["React", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": "pathfinding",
+      "href": "private(todo)",
+      "name": "Pathfinding",
+      "subtitle_en": "Pathfinding algorithms visualizer",
+      "subtitle_fr": "Visualiseur d'algorithmes de recherche de chemin",
+      "desc_en": "Application that allows you to visualize pathfinding algorithms such as Dijkstra, A*, etc. You can create your own grid, place obstacles, and watch the algorithm find the shortest path between two points.",
+      "desc_fr": "Application qui vous permet de visualiser des algorithmes de recherche de chemin tels que Dijkstra, A*, etc. Vous pouvez créer votre propre grille, placer des obstacles et regarder l'algorithme trouver le chemin le plus court entre deux points.",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": "ghibli",
+      "href": "private(todo)",
+      "name": "Ghibli Movies",
+      "subtitle_en": "Ghibli movie review app (in progress)",
+      "subtitle_fr": "Application de revu de films Ghibli (en cours)",
+      "desc_en": "Complete application around the API listing Studio Ghibli movies. It lists the characteristics of each movie (characters, places, etc.) and allows you to create an account, rate films, manage favorites and manage a list of films to watch.",
+      "desc_fr": "Application complète autour de l'API répertoriant les films du studio Ghibli. Elle répertorie les caractéristiques de chaque film (personnages, lieux...) et permet de créer un compte, de noter des films, de gérer des favoris et de gérer une liste de films à regarder.",
+      "skills": ["React", "TypeScript", "SCSS", "Express.js", "PostgreSQL"]
+    },
+    {
+      "id": "noro",
+      "href": "private(todo)",
+      "name": "Noro",
+      "subtitle_en": "Japan travel app (in progress)",
+      "subtitle_fr": "Application de voyage pour le Japon (en cours)",
+      "desc_en": "A kind of social network application for traveling in Japan. The idea is to be able to list different places to visit, rate them, leave comments, have a dictionary... Everything that could be useful for traveling in Japan within a single application.",
+      "desc_fr": "Une sorte de réseau sociale pour les voyages au Japon. L'idée est de pouvoir répertorier différents lieux à visiter, les noter, laisser des commentaires, disposer d'un dictionnaire... Tout ce qui pourrait être utile pour voyager au Japon au sein d'une seule application.",
+      "skills": ["React", "SCSS", "Spring", "PostgreSQL", "Figma"]
+    },
+    {
+      "id": "octrux",
+      "href": "private(todo)",
+      "name": "OctruX",
+      "subtitle_en": "Octree manipulation application",
+      "subtitle_fr": "Application de manipulation d'arbre octaux",
+      "desc_en": "Instructive application whose objective is to allow users to manipulate octal trees, to generate, modify and save them.",
+      "desc_fr": "Application instructive dont l'objectif est de permettre aux utilisateurs de manipuler des arbres octaux, d'en générer, de les modifier et de les sauvegarder.",
+      "skills": ["Flutter"]
+    },
+    {
+      "id": "yokai",
+      "href": "https://github.com/Kyoraku2/Yokai",
+      "name": "Yokai",
+      "subtitle_en": "Adaptadion du jeu de plateau Yokai",
+      "subtitle_fr": "Adaptation of the Yokai board game",
+      "desc_en": "Adaptation of the Yokai board game in a local network, developed in pairs. Playable in games of 2 to 4 players, your objective will be to calm the Yokais.",
+      "desc_fr": "Adaptation du jeu de plateau Yokai en réseau local, développé en binôme. Jouable par partie de 2 à 4 joueurs, votre objectif sera de calmer les Yokais.",
+      "skills": ["JavaScript", "NodeJS", "Sockets"]
+    },
+    {
+      "id": "golfux",
+      "href": "https://github.com/Kyoraku2/GolfuX.github.io",
+      "name": "GolfuX",
+      "subtitle_en": "Jeu mobile de Mini-Golf 2D multijoueur",
+      "subtitle_fr": "Multiplayer 2D Mini-Golf mobile game",
+      "desc_en": "Project during which, in collaboration with 2 teammates, we developed a PWA (Progressive Web Application) for a graduation project. It is a real-time, turn-based MiniGolf game allowing users to play alone or with friends, in a local network or online. This project started in September 2021 and ended in March 2022.",
+      "desc_fr": "Projet durant lequel, en collaboration avec 2 camarades, nous avons développé une PWA (Progressive Web Application) pour un projet de fin de licence. Il s'agit d'un jeu de MiniGolf en tour par tour et en temps réel permettant aux utilisateurs de jouer seuls ou avec leurs amis, en réseau local ou en ligne. Ce projet a commencé en septembre 2021 et s'est terminé en mars 2022.",
+      "skills": ["PWA", "WebWorker", "JavaScript", "Box2D", "NodeJS"]
+    },
+    {
+      "id": "compilation",
+      "href": "private(todo)",
+      "name": "Compilation",
+      "subtitle_en": "Compilation and interpretation",
+      "subtitle_fr": "Compilation et interprétation",
+      "desc_en": "This project was made for the Compilation class of my Master's Degree in 2022. The aim was to build an IDE with a compiler, interpreters, and debuggers for the languages MiniJaja (minimal  version of Java) and JajaCode (JajaCode is the result of MiniJaja compilation).",
+      "desc_fr": "Ce projet a été réalisé dans le cadre de l'unité d'enseignement Compilation du Master ISL de Besançon en 2022. Le but était de construire un IDE avec compilateur, interpréteurs et débogueurs pour les langages MiniJava (version minimale de Java) et JajaCode (JajaCode est le résultat de la compilation MiniJaja).",
+      "skills": ["Java", "JavaCC", "Design pattern", "CI/CD"]
+    },
+    {
+      "id": "bookshop",
+      "href": "https://github.com/Kyoraku2/Projet-Web",
+      "name": "Bookshop",
+      "subtitle_en": "Fictitious online book selling website",
+      "subtitle_fr": "Site fictif de vente de livre en ligne",
+      "desc_en": "Website of a fictitious bookstore simulating the sale of books online  (accounts, sessions...).",
+      "desc_fr": "Site web d'une librairie fictive simulant la vente de livres en ligne (comptes, sessions...).",
+      "skills": ["PHP", "MySQL"]
+    },
+    {
+      "id": "battle",
+      "href": "https://github.com/Kyoraku2/bataille_navale",
+      "name": "Battleship",
+      "subtitle_en": "A Battleship game",
+      "subtitle_fr": "Jeu de bataille naval",
+      "desc_en": "Local network battleship game. Initially you will have to place your boats, then two players will fight 1vs1.",
+      "desc_fr": "Jeu de bataille navale en réseau local. Ce jeu permet dans un premier de temps de placer ses bateaux, puis permet à deux joueurs de s'affronter 1 vs 1.",
+      "skills": ["JavaScript", "NodeJS", "Sockets"]
+    },
+    {
+      "id": "ludo",
+      "href": "https://github.com/Kyoraku2/Projet-POA",
+      "name": "Ludo",
+      "subtitle_en": "Adaptation of the Ludo board game",
+      "subtitle_fr": "Adaptadion du jeu de plateau Ludo (petits chevaux)",
+      "desc_en": "Video game adaptation of the board game Ludo. For this application, the JavaSwing library and the MVC design pattern were used.",
+      "desc_fr": "Adaptation en jeu vidéo du jeu de plateau Ludo. Pour cette application, la librairie JavaSwing et le modèle de conception MVC ont été utilisés.",
+      "skills": ["Java", "MVC", "JavaSwing"]
+    },
+    {
+      "id": "rnday",
+      "href": "https://github.com/Kyoraku2/Kyoraku2.github.io",
+      "name": "R&Day",
+      "subtitle_en": "Site web évènementiel",
+      "subtitle_fr": "Event website",
+      "desc_en": "Website created for the R&Day 2021, an event organized by CMI in computer science students whose theme was quantum computing. The event was centered on the question \"Quantum computing, the future of computing?\".",
+      "desc_fr": "Site réalisé pour la R&Day 2021, un évènement organisé par les étudiants en CMI Informatique dont la thématique était l'informatique quantique. L'évènement était centré sur la question \"L'informatique quantique, le futur de l'informatique?\".",
+      "skills": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    }
+  ]
 }

@@ -1,58 +1,58 @@
-section{
-    height: max-content;
-    padding: $paddingSectionVertical $paddingSectionHorizontal;
-    &:first-of-type{
-      margin-bottom: 5rem;
-    }
-    &:not(:first-of-type){
-      margin-top: 2rem;
-    }
+section {
+  height: max-content;
+  padding: $paddingSectionVertical $paddingSectionHorizontal;
+  &:first-of-type {
+    margin-bottom: 5rem;
+  }
+  &:not(:first-of-type) {
+    margin-top: 2rem;
+  }
 
-    &.diagonal{
-      position: relative;
-      isolation: isolate;
-      &--blackUp::before{
-        content: '';
-        background: #000;
-        position: absolute;
-        z-index: -1;
-        top:-85px;
-        width: 100%;
-        left: 0;
-        height: 12rem;
-      }
-      &::after{
-        content: '';
-        background: $mainBackEven;
-        position: absolute;
-        z-index: -1;
-        inset: 0;
-        transform: skewY(-5deg);
-      }
-      &--reversed{
-        &::after{
-          transform: skewY(5deg);
-        }
+  &.diagonal {
+    position: relative;
+    isolation: isolate;
+    &--blackUp::before {
+      content: "";
+      background: #000;
+      position: absolute;
+      z-index: -1;
+      top: -85px;
+      width: 100%;
+      left: 0;
+      height: 12rem;
+    }
+    &::after {
+      content: "";
+      background: $mainBackEven;
+      position: absolute;
+      z-index: -1;
+      inset: 0;
+      transform: skewY(-5deg);
+    }
+    &--reversed {
+      &::after {
+        transform: skewY(5deg);
       }
     }
+  }
 }
 
-@media(max-width: 400px) {
-  section{
+@media (max-width: 400px) {
+  section {
     padding: $paddingSectionSmallScreen;
   }
 }
 
-section{
-  &>p{
+section {
+  & > p {
     margin: 2rem 0;
   }
 }
 
-.external_link{
+.external_link {
   color: white;
-  text-decoration: underline!important;
-  &:visited{
+  text-decoration: underline !important;
+  &:visited {
     color: white;
   }
 }

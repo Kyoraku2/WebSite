@@ -189,20 +189,17 @@ h2 {
 }
 .button {
   cursor: pointer;
-  border: 2px solid #6f47e5;
-  padding: 0.75rem 2.5rem;
-  color: #6f47e5;
+  background: #6f47e5;
+  width: max-content;
+  padding: 0.75rem 1.5rem;
+  color: white;
   font-weight: 600;
   font-size: 1.15rem;
-  transition: all 0.4s ease;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
-.button--fromBottomRight {
-  background-image: linear-gradient(120deg, transparent 50%, #6f47e5 50%);
-  background-size: 250%;
-}
-.button--fromBottomRight:hover {
-  color: white;
-  background-position: 90%;
+.button:hover {
+  background: #9274eb;
 }
 
 .overlay {
@@ -235,10 +232,10 @@ h2 {
   margin-left: -13rem;
   padding: 2rem;
   transition: opacity 0.3s, visibility 0.3s;
-  border: 4px solid #ababab;
   min-width: 70vw;
-  max-height: 80vh;
+  height: 80vh;
   max-width: 80vw;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
 }
 .detailsPopup button {
   position: absolute;
@@ -257,9 +254,10 @@ h2 {
 .detailsPopup__content {
   display: flex;
   align-items: center;
-  flex-direction: row;
-  column-gap: 1rem;
+  flex-direction: column;
   margin-top: 1rem;
+  height: 100%;
+  overflow-y: auto;
 }
 .detailsPopup__content__title {
   color: black;
@@ -280,8 +278,8 @@ h2 {
   flex-direction: column;
 }
 .detailsPopup__content img {
-  width: 40%;
-  aspect-ratio: 1;
+  max-height: 40%;
+  margin-bottom: 2rem;
 }
 .detailsPopup__content p {
   color: black;
@@ -307,7 +305,6 @@ h2 {
   }
   .detailsPopup__content img {
     width: 75%;
-    aspect-ratio: 1;
     margin: 1rem 0 2rem 0;
   }
 }
@@ -572,16 +569,12 @@ main {
   pointer-events: all;
   color: white;
 }
+.contact__container__form button {
+  margin: auto;
+  margin-top: 1rem;
+}
 .contact__container__form textarea {
   resize: none;
-}
-.contact__container__form button {
-  width: 14rem;
-  font-weight: 100;
-  position: absolute;
-  right: 0;
-  bottom: -4.5rem;
-  pointer-events: all;
 }
 .contact__container__form__infos {
   margin-top: 8rem;
@@ -619,14 +612,6 @@ main {
 .contact__container__form__infos li:hover span {
   opacity: 1;
 }
-.contact__container__map {
-  pointer-events: all;
-}
-.contact__container__map iframe {
-  right: 0;
-  height: 30rem;
-  aspect-ratio: 1;
-}
 
 .works {
   display: flex;
@@ -646,14 +631,14 @@ main {
 }
 .works__items {
   pointer-events: all;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0;
   row-gap: 0;
 }
 .works__items__item {
   position: relative;
-  width: 25%;
+  width: 100%;
 }
 .works__items__item:hover {
   cursor: pointer;
@@ -679,7 +664,11 @@ main {
 .works__items__item[id~=battle] article {
   background-image: url("/assets/images/works/battle.webp");
 }
+.works__items__item[id~=noro] {
+  grid-column: 2/4;
+}
 .works__items__item[id~=noro] article {
+  aspect-ratio: 2;
   background-image: url("/assets/images/works/noro.webp");
 }
 .works__items__item[id~=octrux] article {
@@ -690,6 +679,23 @@ main {
 }
 .works__items__item[id~=compilation] article {
   background-image: url("/assets/images/works/compilation.webp");
+}
+.works__items__item[id~=pathfinding] article {
+  background-image: url("/assets/images/works/pathfinding.webp");
+}
+.works__items__item[id~=pathfinding] {
+  grid-column: 3/5;
+}
+.works__items__item[id~=pathfinding] article {
+  aspect-ratio: 2;
+  background-image: url("/assets/images/works/pathfinding.webp");
+}
+.works__items__item[id~=simple_kanban] {
+  grid-column: 1/3;
+}
+.works__items__item[id~=simple_kanban] article {
+  aspect-ratio: 2;
+  background-image: url("/assets/images/works/simple_kanban.webp");
 }
 .works__items__item article {
   display: block;
@@ -711,7 +717,6 @@ main {
   aspect-ratio: 1;
   border-radius: 100%;
   background-color: #6f47e5;
-  z-index: 1;
   overflow: hidden;
   transition: width 0.3s;
   font-weight: bold;
@@ -757,14 +762,6 @@ main {
   background-color: rgba(0, 0, 0, 0);
 }
 
-#ghibli {
-  width: 50%;
-}
-#ghibli article {
-  aspect-ratio: 0;
-  height: 100%;
-}
-
 @media (max-width: 400px) {
   .works p:first-of-type {
     padding: 3rem;
@@ -772,86 +769,16 @@ main {
   }
 }
 @media (max-width: 600px) and (min-width: 0) {
-  #ghibli {
-    width: 100%;
-  }
   .works__items {
+    display: flex;
     flex-direction: column;
     width: 100%;
   }
   .works__items__item {
     width: 100%;
-    aspect-ratio: 1;
   }
   .works__items__item article div p {
     font-size: 2rem;
-  }
-}
-.skills h2 {
-  margin-bottom: 1rem;
-}
-.skills h3 {
-  font-size: 1.75rem;
-  font-weight: bold;
-  margin: 1rem 0;
-}
-.skills__details {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border-top: 3px solid #303030;
-  border-bottom: 3px solid #303030;
-  column-gap: 1rem;
-}
-.skills__details img {
-  background: #ababab;
-  padding: 0.25rem;
-  border-radius: 10px;
-  width: 80px;
-  height: 80px;
-}
-.skills__details article h4 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.skills__details article p {
-  font-size: 1rem;
-}
-.skills__tools, .skills__langs {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 0.75rem;
-  row-gap: 0.75rem;
-}
-.skills__tools__item, .skills__langs__item {
-  pointer-events: all;
-  background: #303030;
-  padding: 0.25rem;
-  border-radius: 10px;
-  transition: background-color 0.75s;
-}
-.skills__tools__item img, .skills__langs__item img {
-  width: 5rem;
-  height: 5rem;
-}
-.skills__tools__item:hover, .skills__langs__item:hover {
-  cursor: pointer;
-  animation-name: pulse;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  animation-duration: 1.5s;
-  background: cyan;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.15);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 .experiences__timeline {

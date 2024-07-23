@@ -27,16 +27,12 @@
         pointer-events: all;
         color: white;
       }
+      button {
+        margin: auto;
+        margin-top: 1rem;
+      }
       textarea {
         resize: none;
-      }
-      button {
-        width: 14rem;
-        font-weight: 100;
-        position: absolute;
-        right: 0;
-        bottom: -4.5rem;
-        pointer-events: all;
       }
       &__infos {
         margin-top: 8rem;
@@ -73,14 +69,6 @@
             }
           }
         }
-      }
-    }
-    &__map {
-      pointer-events: all;
-      iframe {
-        right: 0;
-        height: 30rem;
-        aspect-ratio: 1;
       }
     }
   }
