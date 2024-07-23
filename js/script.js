@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const navLinks = Array.from(document.getElementsByClassName("navbar__links"));
   const formSendEmail = document.getElementById("send_mail");
   const overlay = document.getElementsByClassName("overlay")[0];
-  const skillDetails = document.getElementsByClassName("skills__details")[0];
-  const skillList = document.getElementsByClassName("skills__tools")[0];
   const languageList = document.getElementsByClassName("skills__langs")[0];
   const worksList = document.getElementsByClassName("works__items")[0];
   const projectDetails = document.getElementsByClassName("detailsPopup")[0];
@@ -54,12 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchData("projects")
     .then((data) => {
       displayProjects(data["projects"]);
-    })
-    .catch(console.error);
-
-  fetchData("skills")
-    .then((data) => {
-      displaySkills(data);
     })
     .catch(console.error);
 
@@ -221,56 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
     togglePopup();
   }
 
-  function updateSkillDetails(category, id) {
-    const skill = skill_list[category].find((item) => item["id"] == id);
-    if (!skill) {
-      return;
-    }
-    skillDetails.innerHTML = "";
-    const img = createElement("img", {
-      src: "./assets/images/logos/" + skill["id"] + ".svg",
-      title: skill["name"],
-      alt: skill["name"] + " logo",
-      loading: "lazy",
-    });
-    const article = createElement(
-      "article",
-      {},
-      "",
-      createElement("h4", {}, skill["name"]),
-      createElement("p", {}, english ? skill["desc_en"] : skill["desc_fr"])
-    );
-    skillDetails.appendChild(img);
-    skillDetails.appendChild(article);
-  }
-
-  function displaySkills(skill_list) {
-    for (const category of Object.keys(skill_list)) {
-      for (const skill of skill_list[category]) {
-        const li = createElement(
-          "li",
-          {
-            class: "skills__" + category + "__item",
-          },
-          "",
-          createElement("img", {
-            src: "./assets/images/logos/" + skill["id"] + ".svg",
-            title: skill["name"],
-            alt: skill["id"] + " logo",
-            loading: "lazy",
-          })
-        );
-        li.addEventListener("click", function () {
-          updateSkillDetails(category, skill.id);
-        });
-        if (category == "langs") {
-          languageList.appendChild(li);
-        } else {
-          skillList.appendChild(li);
-        }
-      }
-    }
-  }
+  
 
   function displayExperiences(experience_list) {
     for (const experience of experience_list) {
